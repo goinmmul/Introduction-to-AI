@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "m001",
+    "restaurantName": "이화원",
+    "menuName": "해물 짜장면",
+    "category": "Chinese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "seafood",
+      "blackbean"
+    ],
+    "locationNote": "빛가람동 190-3 로드빌딩 2층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m002",
+    "restaurantName": "이화원",
+    "menuName": "해물 짬뽕",
+    "category": "Chinese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "seafood",
+      "soup"
+    ],
+    "locationNote": "빛가람동 190-3 로드빌딩 2층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m003",
+    "restaurantName": "이화원",
+    "menuName": "XO소스게살볶음밥",
+    "category": "Chinese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "crab",
+      "seafood"
+    ],
+    "locationNote": "빛가람동 190-3 로드빌딩 2층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m004",
+    "restaurantName": "2046팬스테이크 나주혁신점",
+    "menuName": "팬 스테이크 170g",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "steak",
+      "meat",
+      "western"
+    ],
+    "locationNote": "빛가람동 336-3 레이크뷰빌딩 5층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m005",
+    "restaurantName": "2046팬스테이크 나주혁신점",
+    "menuName": "2046 스테이크 180g",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "steak",
+      "meat",
+      "western"
+    ],
+    "locationNote": "빛가람동 336-3 레이크뷰빌딩 5층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m006",
+    "restaurantName": "2046팬스테이크 나주혁신점",
+    "menuName": "팬 연어 스테이크 150g",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "fresh",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "salmon",
+      "seafood",
+      "steak",
+      "western"
+    ],
+    "locationNote": "빛가람동 336-3 레이크뷰빌딩 5층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m007",
+    "restaurantName": "어나더키친 나주혁신점",
+    "menuName": "왕새우 매운크림파스타",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "spicy",
+      "creamy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "pasta",
+      "shrimp",
+      "seafood",
+      "western"
+    ],
+    "locationNote": "빛가람동 348-17 코어프라자 6층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m008",
+    "restaurantName": "어나더키친 나주혁신점",
+    "menuName": "쉬림프 로제 파스타",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "creamy",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "pasta",
+      "shrimp",
+      "seafood",
+      "western"
+    ],
+    "locationNote": "빛가람동 348-17 코어프라자 6층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m009",
+    "restaurantName": "어나더키친 나주혁신점",
+    "menuName": "안심 버섯 필라프",
+    "category": "Western",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "beef",
+      "mushroom",
+      "western"
+    ],
+    "locationNote": "빛가람동 348-17 코어프라자 6층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m010",
+    "restaurantName": "큰집나주곰탕",
+    "menuName": "곰탕",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "soup",
+      "beef",
+      "rice",
+      "korean"
+    ],
+    "locationNote": "빛가람동 186-1",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m011",
+    "restaurantName": "큰집나주곰탕",
+    "menuName": "수육곰탕",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "soup",
+      "beef",
+      "rice",
+      "korean"
+    ],
+    "locationNote": "빛가람동 186-1",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m012",
+    "restaurantName": "효비초밥",
+    "menuName": "점심세트",
+    "category": "Japanese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "fresh",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch"
+    ],
+    "similarityTags": [
+      "sushi",
+      "seafood",
+      "japanese"
+    ],
+    "locationNote": "빛가람동 345 도원주차빌딩 1층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m013",
+    "restaurantName": "효비초밥",
+    "menuName": "모둠초밥",
+    "category": "Japanese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "fresh",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "sushi",
+      "seafood",
+      "japanese"
+    ],
+    "locationNote": "빛가람동 345 도원주차빌딩 1층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m014",
+    "restaurantName": "효비초밥",
+    "menuName": "특선초밥",
+    "category": "Japanese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "fresh",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "sushi",
+      "seafood",
+      "japanese"
+    ],
+    "locationNote": "빛가람동 345 도원주차빌딩 1층",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m015",
+    "restaurantName": "일품왕소금구이 나주점",
+    "menuName": "숙성 삼겹살 130g",
+    "category": "Meat",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "greasy"
+    ],
+    "mealTimeTags": [
+      "dinner"
+    ],
+    "similarityTags": [
+      "pork",
+      "meat",
+      "grill"
+    ],
+    "locationNote": "빛가람동 285-3",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m016",
+    "restaurantName": "일품왕소금구이 나주점",
+    "menuName": "된장찌개 2인분",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "soup",
+      "rice",
+      "korean"
+    ],
+    "locationNote": "빛가람동 285-3",
+    "sourceLabel": "hotel-iu menu list",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m017",
+    "restaurantName": "꾸석지돌판한우 나주혁신도시점",
+    "menuName": "육회비빔밥",
+    "category": "Korean",
+    "estimatedPrice": 7800,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "beef",
+      "bibimbap",
+      "korean"
+    ],
+    "locationNote": "빛가람동 196-5 B동 102~104호",
+    "sourceLabel": "hotel-iu 2025 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m018",
+    "restaurantName": "꾸석지돌판한우 나주혁신도시점",
+    "menuName": "돌판비빔밥",
+    "category": "Korean",
+    "estimatedPrice": 9800,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "beef",
+      "bibimbap",
+      "korean"
+    ],
+    "locationNote": "빛가람동 196-5 B동 102~104호",
+    "sourceLabel": "hotel-iu 2025 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m019",
+    "restaurantName": "꾸석지돌판한우 나주혁신도시점",
+    "menuName": "물냉면",
+    "category": "Korean",
+    "estimatedPrice": 5800,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "cold",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "coldnoodle",
+      "korean"
+    ],
+    "locationNote": "빛가람동 196-5 B동 102~104호",
+    "sourceLabel": "hotel-iu 2025 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m020",
+    "restaurantName": "육온담",
+    "menuName": "삼겹살 180g",
+    "category": "Meat",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "greasy"
+    ],
+    "mealTimeTags": [
+      "dinner",
+      "lateNight"
+    ],
+    "similarityTags": [
+      "pork",
+      "meat",
+      "grill"
+    ],
+    "locationNote": "상야1길 21 킹덤프라자 B동 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m021",
+    "restaurantName": "육온담",
+    "menuName": "갈매기살",
+    "category": "Meat",
+    "estimatedPrice": 16000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "greasy"
+    ],
+    "mealTimeTags": [
+      "dinner",
+      "lateNight"
+    ],
+    "similarityTags": [
+      "pork",
+      "meat",
+      "grill"
+    ],
+    "locationNote": "상야1길 21 킹덤프라자 B동 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m022",
+    "restaurantName": "육온담",
+    "menuName": "명란파밥",
+    "category": "Korean",
+    "estimatedPrice": 5500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "light"
+    ],
+    "mealTimeTags": [
+      "dinner",
+      "lateNight"
+    ],
+    "similarityTags": [
+      "rice",
+      "side",
+      "korean"
+    ],
+    "locationNote": "상야1길 21 킹덤프라자 B동 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m023",
+    "restaurantName": "나주목초밥 나주본점",
+    "menuName": "모둠초밥 2인",
+    "category": "Japanese",
+    "estimatedPrice": 24000,
+    "listedPrice": 48000,
+    "servingSize": "2인",
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fresh",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "sushi",
+      "seafood",
+      "japanese"
+    ],
+    "locationNote": "그린로 321 백산주차타워 1층 101호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m024",
+    "restaurantName": "나주목초밥 나주본점",
+    "menuName": "돈가스",
+    "category": "Japanese",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "greasy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "pork",
+      "fried",
+      "japanese"
+    ],
+    "locationNote": "그린로 321 백산주차타워 1층 101호",
+    "sourceLabel": "siksin menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m025",
+    "restaurantName": "미미아구찜",
+    "menuName": "아귀찜 1인",
+    "category": "Seafood",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "spicy",
+      "warm",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "seafood",
+      "spicy",
+      "stew"
+    ],
+    "locationNote": "황동1길 4-39 태연빌딩 1층 101호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m026",
+    "restaurantName": "미미아구찜",
+    "menuName": "볶음밥",
+    "category": "Korean",
+    "estimatedPrice": 3500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "side",
+      "korean"
+    ],
+    "locationNote": "황동1길 4-39 태연빌딩 1층 101호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m027",
+    "restaurantName": "정희 나주혁신도시점",
+    "menuName": "고사리 크림 수제비",
+    "category": "Korean",
+    "estimatedPrice": 13900,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "creamy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "sujebi",
+      "noodle",
+      "korean",
+      "cream"
+    ],
+    "locationNote": "상야1길 20 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m028",
+    "restaurantName": "정희 나주혁신도시점",
+    "menuName": "강된장 케일 쌈밥",
+    "category": "Korean",
+    "estimatedPrice": 10900,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "vegetable",
+      "korean"
+    ],
+    "locationNote": "상야1길 20 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m029",
+    "restaurantName": "정희 나주혁신도시점",
+    "menuName": "감태 타르타르",
+    "category": "Korean",
+    "estimatedPrice": 11900,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "light",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "dinner"
+    ],
+    "similarityTags": [
+      "seaweed",
+      "tartar",
+      "fusion"
+    ],
+    "locationNote": "상야1길 20 106호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m030",
+    "restaurantName": "제주밥상",
+    "menuName": "흑돼지 제육볶음",
+    "category": "Korean",
+    "estimatedPrice": 9900,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "spicy",
+      "warm",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "pork",
+      "spicy",
+      "korean"
+    ],
+    "locationNote": "교육길 13 G동 102호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m031",
+    "restaurantName": "제주밥상",
+    "menuName": "흑돼지 짜글이",
+    "category": "Korean",
+    "estimatedPrice": 14000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "spicy",
+      "warm",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "stew",
+      "pork",
+      "rice",
+      "korean"
+    ],
+    "locationNote": "교육길 13 G동 102호",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m032",
+    "restaurantName": "현풍닭칼국수 나주혁신점",
+    "menuName": "닭칼국수",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "chicken",
+      "soup",
+      "korean"
+    ],
+    "locationNote": "빛가람로 679 삼보타워 1층 108·109호",
+    "sourceLabel": "siksin menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m033",
+    "restaurantName": "현풍닭칼국수 나주혁신점",
+    "menuName": "얼큰닭칼국수",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "chicken",
+      "soup",
+      "korean"
+    ],
+    "locationNote": "빛가람로 679 삼보타워 1층 108·109호",
+    "sourceLabel": "siksin menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m034",
+    "restaurantName": "현풍닭칼국수 나주혁신점",
+    "menuName": "삼계칼국수",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "chicken",
+      "soup",
+      "korean"
+    ],
+    "locationNote": "빛가람로 679 삼보타워 1층 108·109호",
+    "sourceLabel": "siksin menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m035",
+    "restaurantName": "솔솥 나주혁신점",
+    "menuName": "[2인세트] 솔솥 시그니쳐 SET",
+    "category": "Korean",
+    "estimatedPrice": 21200,
+    "listedPrice": 42400,
+    "servingSize": "2인",
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "sotbap",
+      "korean"
+    ],
+    "locationNote": "상야1길 8",
+    "sourceLabel": "tabling menu and price",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m036",
+    "restaurantName": "솔솥 나주혁신점",
+    "menuName": "[2인세트] 육해 풍미솥 SET",
+    "category": "Korean",
+    "estimatedPrice": 25100,
+    "listedPrice": 50200,
+    "servingSize": "2인",
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "sotbap",
+      "seafood",
+      "meat",
+      "korean"
+    ],
+    "locationNote": "상야1길 8",
+    "sourceLabel": "tabling menu and price",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m037",
+    "restaurantName": "해탄 나주혁신도시점",
+    "menuName": "해탄한상",
+    "category": "Seafood",
+    "estimatedPrice": 59000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "spicy",
+      "warm",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "squid",
+      "seafood",
+      "pork",
+      "set"
+    ],
+    "locationNote": "상야1길 7 117, 118호",
+    "sourceLabel": "blog review menu and price",
+    "confidence": "menu_and_price",
+    "needsVerification": true
+  },
+  {
+    "id": "m038",
+    "restaurantName": "해탄 나주혁신도시점",
+    "menuName": "돌판오징어",
+    "category": "Seafood",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "spicy",
+      "warm",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "squid",
+      "seafood",
+      "rice"
+    ],
+    "locationNote": "상야1길 7 117, 118호",
+    "sourceLabel": "blog review menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m039",
+    "restaurantName": "해탄 나주혁신도시점",
+    "menuName": "백합칼국수",
+    "category": "Korean",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "mild",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "noodle",
+      "shellfish",
+      "soup",
+      "korean"
+    ],
+    "locationNote": "상야1길 7 117, 118호",
+    "sourceLabel": "blog review menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  },
+  {
+    "id": "m040",
+    "restaurantName": "소 키우는 배보삼춘 나주혁신도시점",
+    "menuName": "한우 생고기 육회비빔밥",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "rice",
+      "beef",
+      "bibimbap",
+      "korean"
+    ],
+    "locationNote": "상야2길 7 중흥S클래스 메가티움상가1차 A동 1층",
+    "sourceLabel": "siksin 2026 price excerpt",
+    "confidence": "menu_and_price_approx",
+    "needsVerification": true
+  },
+  {
+    "id": "m041",
+    "restaurantName": "소 키우는 배보삼춘 나주혁신도시점",
+    "menuName": "한우 구이",
+    "category": "Meat",
+    "estimatedPrice": null,
+    "priceRange": "needs_verification",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "dinner"
+    ],
+    "similarityTags": [
+      "beef",
+      "meat",
+      "grill"
+    ],
+    "locationNote": "상야2길 7 중흥S클래스 메가티움상가1차 A동 1층",
+    "sourceLabel": "siksin menu mention",
+    "confidence": "menu_name_only",
+    "needsVerification": true
+  }
+]
