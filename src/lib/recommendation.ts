@@ -22,6 +22,146 @@ export type RecommendationInput = {
   recentMeals?: string;
 };
 
+export type ParsedSituation = RecommendationInput & {
+  extractedSummary: string[];
+};
+
+function hasAny(text: string, keywords: string[]) {
+  return keywords.some((keyword) => text.includes(keyword));
+}
+
+export function parseSituationText(text: string): ParsedSituation {
+  const normalized = text.replace(/\s+/g, "").toLowerCase();
+
+  const result: ParsedSituation = {
+    dislikedFoods: "",
+    budget: "",
+    preferredTaste: "",
+    mealTime: "",
+    recentMeals: "",
+    extractedSummary: [],
+  };
+
+  // Budget
+  if (
+    hasAny(normalized, ["2만원", "20000", "20,000", "이만원"])
+  ) {
+    result.budget = "under20000";
+    result.extractedSummary.push("예산: 2만원 이하");
+  } else if (
+    hasAny(normalized, ["1만5천", "15000", "15,000", "만오천"])
+  ) {
+    result.budget = "10000to15000";
+    result.extractedSummary.push("예산: 1만5천원 이하");
+  } else if (
+    hasAny(normalized, ["만원", "10000", "10,000", "1만원"])
+  ) {
+    result.budget = "under10000";
+    result.extractedSummary.push("예산: 1만원 이하");
+  }
+
+  // Meal time
+  if (hasAny(normalized, ["점심", "런치", "lunch"])) {
+    result.mealTime = "lunch";
+    result.extractedSummary.push("식사 시간: 점심");
+  } else if (hasAny(normalized, ["저녁", "디너", "dinner"])) {
+    result.mealTime = "dinner";
+    result.extractedSummary.push("식사 시간: 저녁");
+  } else if (hasAny(normalized, ["야식", "밤", "latenight"])) {
+    result.mealTime = "lateNight";
+    result.extractedSummary.push("식사 시간: 야식");
+  }
+
+  // Preferred taste
+  if (hasAny(normalized, ["따뜻", "뜨끈", "국물"])) {
+    result.preferredTaste = "warm";
+    result.extractedSummary.push("선호 맛: 따뜻한");
+  } else if (hasAny(normalized, ["매운", "맵", "칼칼"])) {
+    result.preferredTaste = "spicy";
+    result.extractedSummary.push("선호 맛: 매운");
+  } else if (hasAny(normalized, ["순한", "안매운", "자극적이지않은"])) {
+    result.preferredTaste = "mild";
+    result.extractedSummary.push("선호 맛: 순한");
+  } else if (hasAny(normalized, ["든든", "배부른", "포만감"])) {
+    result.preferredTaste = "filling";
+    result.extractedSummary.push("선호 맛: 든든한");
+  } else if (hasAny(normalized, ["가벼운", "가볍게", "라이트"])) {
+    result.preferredTaste = "light";
+    result.extractedSummary.push("선호 맛: 가벼운");
+  } else if (hasAny(normalized, ["신선", "상큼", "깔끔"])) {
+    result.preferredTaste = "fresh";
+    result.extractedSummary.push("선호 맛: 신선한");
+  } else if (hasAny(normalized, ["크림", "크리미"])) {
+    result.preferredTaste = "creamy";
+    result.extractedSummary.push("선호 맛: 크리미한");
+  }
+
+  // Disliked foods or styles
+  const disliked: string[] = [];
+
+  if (
+    /(해산물|해물|생선|새우)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
+      normalized
+    )
+  ) {
+    disliked.push("seafood", "해산물", "해물", "생선", "새우");
+  }
+
+  if (/(치킨|닭|닭고기)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(normalized)) {
+    disliked.push("chicken", "치킨", "닭");
+  }
+
+  if (/(고기|돼지고기|소고기)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(normalized)) {
+    disliked.push("meat", "고기", "돼지고기", "소고기");
+  }
+
+  if (/(면|면류|국수|라면)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(normalized)) {
+    disliked.push("noodle", "면", "국수", "라면");
+  }
+
+  if (hasAny(normalized, ["느끼한건싫", "느끼한거싫", "느끼싫", "기름진거싫"])) {
+    disliked.push("creamy", "fried", "greasy", "느끼한", "튀김");
+  }
+
+  if (disliked.length > 0) {
+    result.dislikedFoods = Array.from(new Set(disliked)).join(", ");
+    result.extractedSummary.push(`제외 조건: ${result.dislikedFoods}`);
+  }
+
+  // Recent meals
+  const recentFoodKeywords = [
+    "피자",
+    "치킨",
+    "햄버거",
+    "파스타",
+    "돈가스",
+    "비빔밥",
+    "라면",
+    "짜장면",
+    "자장면",
+    "짬뽕",
+    "국밥",
+    "초밥",
+  ];
+
+  if (hasAny(normalized, ["최근", "어제", "오늘아침", "방금", "먹었"])) {
+    const recentMeals = recentFoodKeywords.filter((food) =>
+      normalized.includes(food)
+    );
+
+    if (recentMeals.length > 0) {
+      result.recentMeals = recentMeals.join(", ");
+      result.extractedSummary.push(`최근 먹은 음식: ${result.recentMeals}`);
+    }
+  }
+
+  if (result.extractedSummary.length === 0) {
+    result.extractedSummary.push("자동으로 추출된 조건이 없습니다. 직접 조건을 선택해주세요.");
+  }
+
+  return result;
+}
+
 export type RecommendedMenu = MenuItem & {
   score: number;
   reason: string;

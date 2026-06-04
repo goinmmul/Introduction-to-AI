@@ -1,7 +1,12 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { formatPrice, recommendMenus, RecommendedMenu } from "@/lib/recommendation";
+import {
+  formatPrice,
+  parseSituationText,
+  recommendMenus,
+  RecommendedMenu,
+} from "@/lib/recommendation";
 
 const budgetOptions = [
   { value: "", label: "예산 선택 안 함" },
@@ -34,7 +39,19 @@ export default function RecommendPage() {
   const [mealTime, setMealTime] = useState("");
   const [recentMeals, setRecentMeals] = useState("");
   const [results, setResults] = useState<RecommendedMenu[] | null>(null);
+  const [situationText, setSituationText] = useState("");
+  const [parsedSummary, setParsedSummary] = useState<string[]>([]);
+  function applySituationText() {
+    const parsed = parseSituationText(situationText);
 
+    if (parsed.dislikedFoods) setDislikedFoods(parsed.dislikedFoods);
+    if (parsed.budget) setBudget(parsed.budget);
+    if (parsed.preferredTaste) setPreferredTaste(parsed.preferredTaste);
+    if (parsed.mealTime) setMealTime(parsed.mealTime);
+    if (parsed.recentMeals) setRecentMeals(parsed.recentMeals);
+
+    setParsedSummary(parsed.extractedSummary);
+  }
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setResults(
@@ -55,6 +72,8 @@ export default function RecommendPage() {
     setMealTime("");
     setRecentMeals("");
     setResults(null);
+    setSituationText("");
+    setParsedSummary([]);
   }
 
   return (
@@ -69,6 +88,37 @@ export default function RecommendPage() {
 
           <form onSubmit={handleSubmit} className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <div className="space-y-5">
+              <div className="rounded-2xl border border-blue-100 bg-blue-50 p-5">
+                <label className="text-sm font-semibold text-slate-800">
+                  자연어 상황 입력
+                </label>
+
+                <textarea
+                  value={situationText}
+                  onChange={(event) => setSituationText(event.target.value)}
+                  placeholder="예: 오늘 점심은 만 원 이하로 따뜻하고 든든한 거 먹고 싶어. 해산물은 싫고 어제 피자 먹었어."
+                  className="mt-2 min-h-28 w-full rounded-lg border border-slate-300 px-3 py-3 text-sm outline-none transition focus:border-meoti-blue focus:ring-2 focus:ring-blue-100"
+                />
+
+                <button
+                  type="button"
+                  onClick={applySituationText}
+                  className="mt-3 rounded-full bg-meoti-blue px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700"
+                >
+                  상황 자동 적용
+                </button>
+
+                {parsedSummary.length > 0 && (
+                  <div className="mt-4 rounded-xl bg-white p-4 text-sm text-slate-700">
+                    <p className="font-semibold text-slate-900">자동 추출 결과</p>
+                    <ul className="mt-2 list-disc space-y-1 pl-5">
+                      {parsedSummary.map((summary) => (
+                        <li key={summary}>{summary}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
               <label className="block">
                 <span className="text-sm font-semibold text-slate-700">먹기 싫은 음식</span>
                 <input
@@ -104,11 +154,10 @@ export default function RecommendPage() {
                         key={taste.value}
                         type="button"
                         onClick={() => setPreferredTaste(selected ? "" : taste.value)}
-                        className={`rounded-full border px-3 py-2 text-sm font-medium transition ${
-                          selected
-                            ? "border-meoti-blue bg-meoti-blue text-white"
-                            : "border-slate-300 bg-white text-slate-700 hover:border-meoti-blue hover:text-meoti-blue"
-                        }`}
+                        className={`rounded-full border px-3 py-2 text-sm font-medium transition ${selected
+                          ? "border-meoti-blue bg-meoti-blue text-white"
+                          : "border-slate-300 bg-white text-slate-700 hover:border-meoti-blue hover:text-meoti-blue"
+                          }`}
                       >
                         {taste.label}
                       </button>
