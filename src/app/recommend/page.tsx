@@ -1,5 +1,5 @@
 "use client";
-
+import FoodBackground from "@/components/FoodBackground";
 import { FormEvent, useState } from "react";
 import {
   formatPrice,
@@ -77,10 +77,11 @@ export default function RecommendPage() {
   }
 
   return (
-    <main className="min-h-[calc(100vh-144px)] bg-slate-50">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
+    <main className="relative min-h-[calc(100vh-144px)] overflow-hidden bg-gradient-to-b from-orange-50 via-white to-amber-50">
+      <FoodBackground />
+      <div className="relative z-10 mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[0.9fr_1.1fr]">
         <section>
-          <p className="text-sm font-semibold text-meoti-blue">조건 기반 추천</p>
+          <p className="text-sm font-semibold text-meoti-orange">조건 기반 추천</p>
           <h1 className="mt-3 text-3xl font-bold text-slate-950 sm:text-4xl">메뉴 추천 받기</h1>
           <p className="mt-3 leading-7 text-slate-600">
             싫어하는 음식, 예산, 원하는 맛과 식사 시간을 입력하면 메뉴 데이터에서 Top 3를 추천합니다.
@@ -88,7 +89,7 @@ export default function RecommendPage() {
 
           <form onSubmit={handleSubmit} className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <div className="space-y-5">
-              <div className="rounded-2xl border border-blue-100 bg-blue-50 p-5">
+              <div className="rounded-2xl border border-orange-100 bg-orange-50 p-5 shadow-sm">
                 <label className="text-sm font-semibold text-slate-800">
                   자연어 상황 입력
                 </label>
@@ -103,7 +104,7 @@ export default function RecommendPage() {
                 <button
                   type="button"
                   onClick={applySituationText}
-                  className="mt-3 rounded-full bg-meoti-blue px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700"
+                  className="mt-3 rounded-full bg-orange-600 px-4 py-2 text-sm font-semibold text-white shadow-md shadow-orange-100 transition hover:bg-orange-700"
                 >
                   상황 자동 적용
                 </button>
@@ -171,7 +172,7 @@ export default function RecommendPage() {
                 <select
                   value={mealTime}
                   onChange={(event) => setMealTime(event.target.value)}
-                  className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-3 text-sm outline-none transition focus:border-meoti-blue focus:ring-2 focus:ring-blue-100"
+                  className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-3 py-3 text-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
                 >
                   {mealTimeOptions.map((option) => (
                     <option key={option.value} value={option.value}>

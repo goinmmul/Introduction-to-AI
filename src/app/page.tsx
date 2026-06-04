@@ -1,92 +1,167 @@
+import FoodBackground from "@/components/FoodBackground";
 import Link from "next/link";
-import { formatPrice, getPreviewMenus } from "@/lib/recommendation";
 
-const steps = [
+const featureCards = [
   {
-    title: "조건 입력",
-    body: "싫어하는 음식, 예산, 원하는 맛을 입력합니다."
+    icon: "🍜",
+    title: "상황 기반 추천",
+    description: "예산, 식사 시간, 원하는 맛을 반영해서 지금 먹기 좋은 메뉴를 추천합니다.",
   },
   {
-    title: "메뉴 필터링",
-    body: "빛가람혁신도시 메뉴 데이터에서 조건에 맞지 않는 메뉴를 제거합니다."
+    icon: "🚫",
+    title: "싫어하는 음식 제외",
+    description: "해산물, 면, 고기처럼 오늘 먹고 싶지 않은 음식은 추천에서 제외합니다.",
   },
   {
-    title: "Top 3 추천",
-    body: "조건에 맞는 메뉴 3개를 추천 이유와 함께 확인합니다."
-  }
+    icon: "✨",
+    title: "자연어 입력 지원",
+    description: "“만원 이하로 따뜻한 거 먹고 싶어”처럼 문장으로 입력해도 조건을 추출합니다.",
+  },
 ];
 
-export default function Home() {
-  const previewMenus = getPreviewMenus();
+const sampleMenus = [
+  {
+    name: "따뜻한 국밥",
+    tag: "든든한 한 끼",
+    reason: "점심 시간과 든든한 메뉴 선호에 잘 맞아요.",
+  },
+  {
+    name: "매콤한 제육덮밥",
+    tag: "가성비 메뉴",
+    reason: "만원 이하 예산과 매운맛 선호에 적합해요.",
+  },
+  {
+    name: "가벼운 샐러드",
+    tag: "깔끔한 선택",
+    reason: "최근 먹은 음식과 겹치지 않는 가벼운 메뉴예요.",
+  },
+];
 
+export default function HomePage() {
   return (
-    <main>
-      <section className="border-b border-slate-200 bg-gradient-to-b from-white to-meoti-sky">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:py-24">
-          <div>
-            <p className="text-sm font-semibold text-meoti-blue">KENTECH 주변 메뉴 추천 MVP</p>
-            <h1 className="mt-4 text-4xl font-bold tracking-normal text-slate-950 sm:text-6xl">
-              오늘 뭐 먹지?
-            </h1>
-            <p className="mt-5 text-xl font-semibold text-slate-700">
-              빛가람혁신도시에서 오늘 먹을 메뉴를 빠르게 추천받으세요.
-            </p>
-            <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-              먹기 싫은 음식, 예산, 원하는 맛을 입력하면 메오티가 조건에 맞는 메뉴 3개를 골라드립니다.
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link
-                href="/recommend"
-                className="inline-flex items-center justify-center rounded-lg bg-meoti-blue px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
-              >
-                메뉴 추천 받기
-              </Link>
-              <Link
-                href="/about"
-                className="inline-flex items-center justify-center rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-meoti-blue hover:text-meoti-blue"
-              >
-                서비스 알아보기
-              </Link>
-            </div>
+    <main className="relative min-h-[calc(100vh-144px)] overflow-hidden bg-gradient-to-b from-orange-50 via-white to-amber-50">
+      <FoodBackground />
+      <section className="relative z-10 mx-auto grid max-w-6xl gap-10 px-6 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+        <div>
+          <p className="mb-4 inline-flex rounded-full bg-orange-100 px-4 py-2 text-sm font-semibold text-orange-700">
+            KENTECH · Bitgaram Food Recommendation
+          </p>
+
+          <h1 className="text-4xl font-extrabold leading-tight text-slate-950 sm:text-5xl">
+            오늘 뭐 먹지?
+            <br />
+            <span className="text-orange-600">메오티가 골라줄게요.</span>
+          </h1>
+
+          <p className="mt-6 max-w-xl text-base leading-8 text-slate-600">
+            메오티는 KENTECH 학생과 빛가람혁신도시 주변 사용자를 위한
+            음식 추천 서비스입니다. 예산, 원하는 맛, 식사 시간, 싫어하는 음식,
+            최근 먹은 음식을 반영해 지금 먹기 좋은 메뉴 Top 3를 추천합니다.
+          </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              href="/recommend"
+              className="rounded-full bg-orange-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-200 transition hover:bg-orange-700"
+            >
+              메뉴 추천 받기
+            </Link>
+
+            <Link
+              href="/about"
+              className="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-bold text-slate-700 transition hover:border-orange-300 hover:text-orange-700"
+            >
+              서비스 소개 보기
+            </Link>
           </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <p className="text-sm font-semibold text-slate-500">추천 예시</p>
-            <div className="mt-4 space-y-3">
-              {previewMenus.map((menu) => (
-                <div key={menu.id ?? menu.menuName} className="rounded-xl border border-slate-200 p-4">
-                  <p className="text-sm text-slate-500">{menu.restaurantName}</p>
-                  <div className="mt-1 flex items-start justify-between gap-3">
-                    <h2 className="font-semibold text-slate-950">{menu.menuName}</h2>
-                    <span className="shrink-0 text-sm text-meoti-blue">
-                      {formatPrice(menu.estimatedPrice)}
-                    </span>
+        </div>
+
+        <div className="rounded-[2rem] border border-orange-100 bg-white p-6 shadow-xl shadow-orange-100">
+          <div className="rounded-[1.5rem] bg-gradient-to-br from-orange-500 to-amber-400 p-6 text-white">
+            <p className="text-sm font-semibold opacity-90">오늘의 추천 예시</p>
+            <h2 className="mt-3 text-3xl font-extrabold">따뜻하고 든든한 점심</h2>
+            <p className="mt-3 text-sm leading-6 opacity-90">
+              “만원 이하로 따뜻한 음식이 먹고 싶고, 해산물은 싫어요.”
+            </p>
+          </div>
+
+          <div className="mt-5 space-y-3">
+            {sampleMenus.map((menu, index) => (
+              <div
+                key={menu.name}
+                className="rounded-2xl border border-slate-100 bg-slate-50 p-4"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs font-bold text-orange-600">
+                      추천 {index + 1}
+                    </p>
+                    <h3 className="mt-1 text-lg font-bold text-slate-900">
+                      {menu.name}
+                    </h3>
+                    <p className="mt-1 text-sm text-slate-500">{menu.reason}</p>
                   </div>
-                  <p className="mt-2 text-sm text-slate-500">{menu.category}</p>
+                  <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-slate-600">
+                    {menu.tag}
+                  </span>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-        <h2 className="text-2xl font-bold text-slate-950">How It Works</h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
-          {steps.map((step) => (
-            <article key={step.title} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-950">{step.title}</h3>
-              <p className="mt-3 leading-7 text-slate-600">{step.body}</p>
-            </article>
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <div className="grid gap-5 md:grid-cols-3">
+          {featureCards.map((feature) => (
+            <div
+              key={feature.title}
+              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div className="text-4xl">{feature.icon}</div>
+              <h3 className="mt-4 text-xl font-bold text-slate-900">
+                {feature.title}
+              </h3>
+              <p className="mt-3 text-sm leading-6 text-slate-600">
+                {feature.description}
+              </p>
+            </div>
           ))}
         </div>
       </section>
 
-      <section className="border-t border-slate-200 bg-slate-50">
-        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-          <p className="max-w-4xl text-sm leading-7 text-slate-600">
-            메오티는 MVP 단계에서 빛가람혁신도시 내 음식점과 대표 메뉴 데이터를 기반으로 추천합니다.
-            가격과 영업 정보는 실제 방문 전 확인이 필요할 수 있습니다.
-          </p>
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <p className="text-sm font-bold text-orange-600">How it works</p>
+          <h2 className="mt-2 text-3xl font-extrabold text-slate-950">
+            세 단계로 끝나는 메뉴 선택
+          </h2>
+
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            <div className="rounded-2xl bg-orange-50 p-5">
+              <p className="text-sm font-bold text-orange-600">Step 1</p>
+              <h3 className="mt-2 font-bold text-slate-900">상황 입력</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                자연어 문장 또는 직접 입력으로 예산, 취향, 식사 시간을 입력합니다.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-amber-50 p-5">
+              <p className="text-sm font-bold text-amber-600">Step 2</p>
+              <h3 className="mt-2 font-bold text-slate-900">조건 분석</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                싫어하는 음식은 제외하고, 선호 태그와 예산 조건을 점수화합니다.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-blue-50 p-5">
+              <p className="text-sm font-bold text-blue-600">Step 3</p>
+              <h3 className="mt-2 font-bold text-slate-900">Top 3 추천</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                가장 적합한 메뉴 3개를 추천 이유와 함께 보여줍니다.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
