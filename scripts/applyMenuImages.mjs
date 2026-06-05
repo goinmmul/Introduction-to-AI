@@ -167,9 +167,9 @@ const imageUpdates = {
         "해탄한상과 비슷한 해산물 요리 사진"
     ),
     m038: commonsImage("Ojingeo-bokkeum.jpg", "오징어볶음 사진"),
-    m039: unsplashImage(
-        UNSPLASH.noodles,
-        "백합칼국수와 비슷한 칼국수 사진"
+    m039: commonsImage(
+        "Haemulkalguksu (seafood kalguksu).jpg",
+        "백합칼국수와 비슷한 해물칼국수 사진"
     ),
 
     // 소 키우는 배보삼춘 나주혁신도시점
