@@ -1,15 +1,64 @@
 # 메오티
 
-메오티는 KENTECH 학생과 빛가람혁신도시 주변 사용자를 위한 조건 기반 음식 추천 MVP입니다. 사용자가 먹기 싫은 음식, 예산, 원하는 맛, 식사 시간, 최근 먹은 음식을 입력하면 로컬 메뉴 데이터에서 Top 3 메뉴를 추천합니다.
+메오티는 KENTECH 학생과 빛가람혁신도시 주변 사용자를 위한 음식 선택 지원 웹 서비스입니다. 사용자가 먹기 싫은 음식, 예산, 원하는 맛, 식사 시간, 최근 먹은 음식을 입력하면 로컬 메뉴 데이터에서 적합한 메뉴 Top 3를 추천합니다. 또한 여러 명이 함께 메뉴를 정할 때 사용할 수 있는 음식 룰렛과 식사 후 재미 요소로 사용할 수 있는 음식값 사다리타기 기능을 제공합니다.
+
+## Project Purpose
+
+많은 학생들은 점심이나 저녁을 고를 때 메뉴 후보가 너무 많거나, 예산과 취향이 맞지 않거나, 최근에 먹은 음식과 겹치는 문제 때문에 결정을 미룹니다. 메오티는 이런 "오늘 뭐 먹지?" 문제를 줄이기 위해 사용자의 상황을 간단한 조건으로 바꾸고, 빛가람혁신도시 주변 메뉴 데이터에서 바로 선택 가능한 후보를 보여주는 것을 목표로 합니다.
+
+## Target Users
+
+- KENTECH 학생
+- 빛가람혁신도시 주변에서 식사할 장소를 찾는 사용자
+- 친구들과 함께 메뉴를 정해야 하는 사용자
+- 메뉴 선택 시간을 줄이고 싶은 사용자
 
 ## Main Features
 
-- 홈 페이지: 서비스 소개, 작동 방식, 메뉴 추천 미리보기
-- 추천 페이지: 조건 입력 폼과 Top 3 추천 결과
-- About 페이지: 서비스 목적, 데이터 범위, MVP 한계 설명
-- 로컬 JSON 기반 추천 로직
-- 가격 정보가 없는 메뉴도 안전하게 처리
-- 로그인, 데이터베이스, 지도 API, 결제, 예약 기능 없음
+### 1. Situation-Based Menu Recommendation
+
+- 자연어 상황 입력 지원
+  - 예: `오늘 점심은 만 원 이하로 따뜻하고 든든한 거 먹고 싶어. 해산물은 싫고 어제 피자 먹었어.`
+- 싫어하는 음식 자동 추출 및 추천 후보 제외
+- 예산, 원하는 맛, 식사 시간, 최근 먹은 음식 조건 반영
+- 로컬 메뉴 데이터에서 Top 3 메뉴 추천
+- 추천 이유, 예상 가격, 음식점 이름, 위치 정보, 음식 이미지 표시
+- 위치 정보가 있는 메뉴는 Google Maps 검색 링크로 연결
+
+### 2. Food Roulette
+
+- 친구들이 먹고 싶은 메뉴 후보를 여러 개 입력하면 랜덤으로 Top 3 순위를 생성합니다.
+- 입력한 후보가 `data/menus.json`의 실제 메뉴 데이터와 연결되면 음식점 이름, 실제 메뉴명, 가격, 위치 링크를 함께 보여줍니다.
+- 여러 명이 의견을 낼 때 공정하고 빠르게 후보를 좁히는 기능입니다.
+
+### 3. Food Price Ladder Game
+
+- 참가자 이름과 총 음식값을 입력하면 랜덤 사다리를 생성합니다.
+- 사다리 결과에 따라 결제 담당자 한 명을 선정합니다.
+- 실제 결제 기능이 아니라 친구들끼리 동의했을 때 사용하는 재미용 의사결정 기능입니다.
+
+### 4. About Page
+
+- 서비스 목적, 데이터 범위, MVP 한계, 향후 개선 방향을 설명합니다.
+
+## Service Flow
+
+1. 사용자는 홈 화면에서 메뉴 추천, 음식 룰렛, 서비스 소개 페이지로 이동합니다.
+2. 혼자 메뉴를 고를 때는 `/recommend`에서 상황 문장 또는 직접 조건을 입력합니다.
+3. 시스템은 입력된 조건을 파싱하고, 싫어하는 음식은 제외하며, 예산과 취향 조건을 점수화합니다.
+4. 최종적으로 메뉴 Top 3, 추천 이유, 가격, 위치, 이미지를 보여줍니다.
+5. 여러 명이 함께 메뉴를 정할 때는 `/roulette`에서 후보 메뉴를 입력하고 랜덤 Top 3를 확인합니다.
+6. 식사 후 결제 담당자를 재미있게 정하고 싶을 때는 `/ladder`에서 사다리타기를 실행합니다.
+
+## Pages and Routes
+
+| Route | Description |
+| --- | --- |
+| `/` | Home page with service overview and main navigation |
+| `/recommend` | Condition-based menu recommendation page |
+| `/roulette` | Random food roulette for group menu decisions |
+| `/ladder` | Ladder game for selecting one food payment person |
+| `/about` | Service description, data scope, limitations, and future work |
 
 ## Tech Stack
 
@@ -18,7 +67,7 @@
 - TypeScript
 - Tailwind CSS
 - Local JSON data
-- Deployment target: Vercel
+- Vercel deployment
 
 ## Install and Run
 
@@ -27,53 +76,125 @@ npm install
 npm run dev
 ```
 
-브라우저에서 `http://localhost:3000`을 열면 됩니다.
+Open the following address in a browser:
 
-빌드 확인:
+```bash
+http://localhost:3000
+```
+
+Build check:
 
 ```bash
 npm run build
 ```
 
+Lint check:
+
+```bash
+npm run lint
+```
+
 ## Data Scope
 
-MVP 데이터는 빛가람혁신도시 주변 음식점과 대표 메뉴를 대상으로 합니다. 데이터는 `data/menus.json` 파일에 저장되어 있으며, 별도 데이터베이스는 사용하지 않습니다.
+The MVP uses local menu data from restaurants around Bitgaram Innovation City. The data is stored in:
 
-## How `data/menus.json` Is Used
+```bash
+data/menus.json
+```
 
-`src/lib/recommendation.ts`에서 `data/menus.json`을 import해 추천 후보 목록으로 사용합니다. 각 메뉴는 `restaurantName`, `menuName`, `category`, `estimatedPrice`, `tasteTags`, `mealTimeTags`, `similarityTags`, `locationNote`, `needsVerification` 같은 필드를 가질 수 있습니다.
+The dataset includes fields such as:
 
-`estimatedPrice`가 `null`인 경우 추천에서 제거하지 않고 가격 확인 필요로 표시합니다.
+- `restaurantName`
+- `menuName`
+- `category`
+- `estimatedPrice`
+- `priceRange`
+- `tasteTags`
+- `mealTimeTags`
+- `similarityTags`
+- `locationNote`
+- `sourceLabel`
+- `confidence`
+- `needsVerification`
+- `imageUrl`
+- `imageSourceLabel`
+- `imageCreditUrl`
+
+Some prices, images, and restaurant details may be manually estimated or may require verification before real use.
+
+## How Recommendation Works
+
+The core recommendation logic is implemented in:
+
+```bash
+src/lib/recommendation.ts
+```
+
+Main steps:
+
+1. Import menu candidates from `data/menus.json`.
+2. Parse the user's natural-language situation text when provided.
+3. Extract disliked foods, budget, preferred taste, meal time, and recent meals.
+4. Remove menus that match disliked food terms.
+5. Score remaining menus using budget, taste, meal-time, recent-meal, price, and image availability signals.
+6. Sort candidates by score.
+7. Select a small top pool and randomly return 3 recommendations to avoid showing the exact same result every time.
+8. Generate a short rule-based recommendation reason for each menu.
+
+## Core Files
+
+| File | Role |
+| --- | --- |
+| `src/app/page.tsx` | Home page and main service navigation |
+| `src/app/recommend/page.tsx` | Recommendation input form and result UI |
+| `src/app/roulette/page.tsx` | Food roulette feature for group menu decisions |
+| `src/app/ladder/page.tsx` | Food price ladder game |
+| `src/app/about/page.tsx` | Service explanation and limitations |
+| `src/lib/recommendation.ts` | Rule-based parsing, filtering, scoring, and recommendation logic |
+| `data/menus.json` | Local menu dataset |
+| `AI_USAGE.md` | Explanation of how AI tools were used during development |
+| `package.json` | Project scripts and dependencies |
 
 ## How to Update Menu Data
 
-1. `data/menus.json`을 엽니다.
-2. 기존 JSON 배열 형식을 유지합니다.
-3. 메뉴 객체에 고유한 `id`를 넣습니다.
-4. 가격을 모르면 `estimatedPrice: null`로 둡니다.
-5. 검증이 필요한 항목은 `needsVerification: true`를 유지합니다.
-6. 저장 후 `npm run build`로 JSON 파싱과 타입 오류를 확인합니다.
-
-## MVP Limitations
-
-- 메뉴 데이터는 수동 수집 또는 부분 검증 데이터일 수 있습니다.
-- 가격과 영업 상태는 실시간으로 업데이트되지 않습니다.
-- AI API는 MVP에 통합되어 있지 않습니다.
-- 지도, 로그인, 예약, 결제 기능은 포함하지 않습니다.
-- 추천 설명은 규칙 기반 문장입니다.
-
-## Future Improvements
-
-- AI 생성 추천 설명
-- 그룹 추천
-- 지도 링크
-- 실제 음식점 데이터 업데이트 흐름
-- 더 정교한 유사도 계산
+1. Open `data/menus.json`.
+2. Keep the JSON array structure valid.
+3. Add a unique `id` for each menu.
+4. Use `estimatedPrice: null` if the price is unknown.
+5. Keep `needsVerification: true` for data that may need manual checking.
+6. Add or update `tasteTags`, `mealTimeTags`, and `similarityTags` so the recommendation logic can use the menu properly.
+7. Run `npm run build` after editing to check JSON parsing and TypeScript errors.
 
 ## AI Usage Note
 
-AI API is not integrated in the MVP. AI-generated explanations are optional future work. The current recommendation result uses local data and rule-based scoring only.
+This project was developed with AI-assisted programming support. AI tools were used for brainstorming, UI scaffolding, recommendation logic design, debugging, documentation drafting, and code review. The running MVP does not use an external AI API. The current recommendation output is generated by local data and transparent rule-based scoring.
+
+For details, see:
+
+```bash
+AI_USAGE.md
+```
+
+## MVP Limitations
+
+- The service does not use a live restaurant database.
+- Menu prices and business information are not updated in real time.
+- Some menu data may be manually estimated or partially verified.
+- Recommendation explanations are rule-based, not generated by an LLM API.
+- The Google Maps link is a search link, not a full map API integration.
+- The ladder game is for entertainment only and does not process real payment.
+- Login, user profiles, reservation, review writing, and real payment features are not included.
+
+## Future Improvements
+
+- Add real-time restaurant and menu data update workflow
+- Add user preference history and personalized recommendations
+- Add stronger similarity scoring between menu categories
+- Add AI-generated natural-language explanations after verification
+- Add group preference aggregation beyond random roulette
+- Add map-based distance filtering
+- Add automated tests for recommendation edge cases
 
 ## Warning
 
-Prices and restaurant information may need manual verification before a real visit. Do not expose private API keys or credentials in this repository or Vercel environment variables.
+Prices, opening hours, restaurant availability, and menu details may change. Users should verify important information before visiting a restaurant. Do not expose private API keys, credentials, or environment variables in this repository.
