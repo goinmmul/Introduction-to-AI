@@ -52,8 +52,158 @@ function hasAny(text: string, keywords: string[]) {
   return keywords.some((keyword) => text.includes(keyword));
 }
 
+function normalizeSituationText(text: string) {
+  return text.replace(/\s+/g, "").toLowerCase();
+}
+
+function splitSituationClauses(text: string) {
+  return text
+    .split(/[.!?。！？\n]/)
+    .map((clause) => clause.trim())
+    .filter(Boolean);
+}
+
+const negativeCueRegex = /(싫|안먹|안먹고|안먹고싶|못먹|제외|빼줘|빼고|먹기싫)/g;
+const recentCuePattern = /(최근|어제|오늘아침|방금|먹었|먹은)/;
+
+const dislikedKeywordRules = [
+  { keywords: ["짬뽕", "해물짬뽕"], terms: ["짬뽕"] },
+  {
+    keywords: ["짜장면", "자장면", "짜장", "자장", "해물짜장면", "해물자장면"],
+    terms: ["짜장", "자장", "짜장면", "자장면"],
+  },
+  { keywords: ["삼겹살", "숙성삼겹살"], terms: ["삼겹살"] },
+  { keywords: ["파스타", "크림파스타", "로제파스타"], terms: ["파스타"] },
+  { keywords: ["곰탕", "수육곰탕"], terms: ["곰탕"] },
+  { keywords: ["칼국수", "닭칼국수", "백합칼국수", "해물칼국수"], terms: ["칼국수"] },
+  { keywords: ["냉면", "물냉면"], terms: ["냉면"] },
+  { keywords: ["초밥", "스시"], terms: ["초밥", "sushi"] },
+  { keywords: ["돈가스", "돈까스"], terms: ["돈가스", "돈까스"] },
+  { keywords: ["스테이크", "팬스테이크"], terms: ["스테이크"] },
+  { keywords: ["제육", "제육볶음"], terms: ["제육"] },
+  { keywords: ["찌개", "짜글이", "김치찌개", "된장찌개"], terms: ["찌개"] },
+  { keywords: ["볶음밥", "필라프"], terms: ["볶음밥", "필라프"] },
+  { keywords: ["비빔밥", "육회비빔밥", "돌판비빔밥"], terms: ["비빔밥"] },
+  { keywords: ["아귀찜", "아구찜"], terms: ["아귀찜", "아구찜"] },
+  { keywords: ["오징어", "돌판오징어"], terms: ["오징어"] },
+  { keywords: ["한우", "소고기", "소고기구이"], terms: ["한우", "소고기"] },
+  { keywords: ["갈매기살"], terms: ["갈매기살"] },
+  { keywords: ["명란", "명란파밥"], terms: ["명란"] },
+  { keywords: ["수제비"], terms: ["수제비"] },
+
+  {
+    keywords: ["해산물", "해물", "생선", "새우", "조개", "백합"],
+    terms: ["seafood", "해산물", "해물", "생선", "새우", "조개", "백합"],
+  },
+  {
+    keywords: ["치킨", "닭", "닭고기"],
+    terms: ["chicken", "치킨", "닭", "닭고기"],
+  },
+  {
+    keywords: ["고기", "돼지고기", "소고기", "한우"],
+    terms: ["meat", "고기", "돼지고기", "소고기", "한우"],
+  },
+  {
+    keywords: ["면", "면류", "국수", "라면"],
+    terms: ["noodle", "면", "면류", "국수", "라면"],
+  },
+  {
+    keywords: ["느끼한", "느끼", "기름진", "튀긴", "튀김"],
+    terms: ["creamy", "fried", "greasy", "느끼한", "튀김"],
+  },
+];
+
+const recentKeywordRules = [
+  { keywords: ["피자"], term: "피자" },
+  { keywords: ["치킨"], term: "치킨" },
+  { keywords: ["햄버거", "버거"], term: "햄버거" },
+  { keywords: ["파스타"], term: "파스타" },
+  { keywords: ["돈가스", "돈까스"], term: "돈가스" },
+  { keywords: ["비빔밥"], term: "비빔밥" },
+  { keywords: ["라면"], term: "라면" },
+  { keywords: ["짜장면", "자장면", "짜장", "자장"], term: "짜장" },
+  { keywords: ["짬뽕"], term: "짬뽕" },
+  { keywords: ["국밥"], term: "국밥" },
+  { keywords: ["곰탕", "수육곰탕"], term: "곰탕" },
+  { keywords: ["초밥", "스시"], term: "초밥" },
+  { keywords: ["스테이크", "팬스테이크"], term: "스테이크" },
+  { keywords: ["칼국수", "닭칼국수", "백합칼국수"], term: "칼국수" },
+  { keywords: ["냉면", "물냉면"], term: "냉면" },
+  { keywords: ["삼겹살"], term: "삼겹살" },
+  { keywords: ["제육", "제육볶음"], term: "제육" },
+  { keywords: ["찌개", "짜글이", "김치찌개", "된장찌개"], term: "찌개" },
+  { keywords: ["볶음밥", "필라프"], term: "볶음밥" },
+  { keywords: ["아귀찜", "아구찜"], term: "아귀찜" },
+  { keywords: ["수제비"], term: "수제비" },
+];
+
+function extractDislikedTermsFromSituation(text: string) {
+  const disliked = new Set<string>();
+  const clauses = splitSituationClauses(text);
+
+  clauses.forEach((clause) => {
+    const normalizedClause = normalizeSituationText(clause);
+    const cueMatches = Array.from(normalizedClause.matchAll(negativeCueRegex));
+
+    cueMatches.forEach((match) => {
+      const cueIndex = match.index ?? -1;
+      if (cueIndex < 0) return;
+
+      // 핵심:
+      // "짬뽕, 삼겹살, 파스타, 곰탕 싫어"처럼
+      // 싫다는 표현 앞쪽에 나열된 음식만 제외 조건으로 봅니다.
+      // 뒤쪽의 "짜장은 어제 먹었어" 같은 최근 먹은 음식은 제외 조건에 섞이지 않습니다.
+      const scopeBeforeNegativeCue = normalizedClause.slice(
+        Math.max(0, cueIndex - 80),
+        cueIndex
+      );
+
+      dislikedKeywordRules.forEach((rule) => {
+        const matched = rule.keywords.some((keyword) =>
+          scopeBeforeNegativeCue.includes(keyword)
+        );
+
+        if (matched) {
+          rule.terms.forEach((term) => disliked.add(term));
+        }
+      });
+    });
+  });
+
+  return Array.from(disliked);
+}
+
+function extractRecentMealsFromSituation(text: string, dislikedTerms: string[]) {
+  const recent = new Set<string>();
+  const dislikedSet = new Set(dislikedTerms);
+  const clauses = splitSituationClauses(text);
+
+  clauses.forEach((clause) => {
+    const normalizedClause = normalizeSituationText(clause);
+
+    if (!recentCuePattern.test(normalizedClause)) {
+      return;
+    }
+
+    // 핵심:
+    // 최근 먹은 음식은 "어제", "최근", "먹었어"가 있는 문장 조각에서만 찾습니다.
+    // 그리고 이미 제외 조건으로 잡힌 음식은 recentMeals에서 제거합니다.
+    recentKeywordRules.forEach((rule) => {
+      const matched = rule.keywords.some((keyword) =>
+        normalizedClause.includes(keyword)
+      );
+
+      if (matched && !dislikedSet.has(rule.term)) {
+        recent.add(rule.term);
+      }
+    });
+  });
+
+  return Array.from(recent);
+}
+
 export function parseSituationText(text: string): ParsedSituation {
-  const normalized = text.replace(/\s+/g, "").toLowerCase();
+  const normalized = normalizeSituationText(text);
 
   const result: ParsedSituation = {
     dislikedFoods: "",
@@ -69,11 +219,13 @@ export function parseSituationText(text: string): ParsedSituation {
     result.budget = "over15000";
     result.extractedSummary.push("예산: 2만원 이하");
   } else if (
-    hasAny(normalized, ["1만5천", "15000", "15,000", "만오천"])
+    hasAny(normalized, ["1만5천", "15000", "15,000", "만오천", "만오천원"])
   ) {
     result.budget = "10000to15000";
     result.extractedSummary.push("예산: 1만5천원 이하");
-  } else if (hasAny(normalized, ["만원", "10000", "10,000", "1만원"])) {
+  } else if (
+    hasAny(normalized, ["만원", "10000", "10,000", "1만원", "만원이하"])
+  ) {
     result.budget = "under10000";
     result.extractedSummary.push("예산: 1만원 이하");
   }
@@ -114,88 +266,20 @@ export function parseSituationText(text: string): ParsedSituation {
     result.extractedSummary.push("선호 맛: 크리미한");
   }
 
-  // Disliked foods or styles
-  const disliked: string[] = [];
-
-  if (
-    /(해산물|해물|생선|새우|조개|백합)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
-      normalized
-    )
-  ) {
-    disliked.push("seafood", "해산물", "해물", "생선", "새우", "조개");
-  }
-
-  if (
-    /(치킨|닭|닭고기)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
-      normalized
-    )
-  ) {
-    disliked.push("chicken", "치킨", "닭");
-  }
-
-  if (
-    /(고기|돼지고기|소고기|한우|삼겹살)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
-      normalized
-    )
-  ) {
-    disliked.push("meat", "고기", "돼지고기", "소고기", "한우", "삼겹살");
-  }
-
-  if (
-    /(면|면류|국수|라면|칼국수|냉면|파스타)(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
-      normalized
-    )
-  ) {
-    disliked.push("noodle", "면", "국수", "라면", "칼국수", "냉면", "파스타");
-  }
-
-  if (
-    /(느끼한|느끼|기름진|튀긴|튀김)(건|거|음식)?(은|는|이|가|을|를|도)?(싫|안먹|못먹|제외)/.test(
-      normalized
-    )
-  ) {
-    disliked.push("creamy", "fried", "greasy", "느끼한", "튀김");
-  }
+  // Disliked foods
+  const disliked = extractDislikedTermsFromSituation(text);
 
   if (disliked.length > 0) {
-    result.dislikedFoods = Array.from(new Set(disliked)).join(", ");
+    result.dislikedFoods = disliked.join(", ");
     result.extractedSummary.push(`제외 조건: ${result.dislikedFoods}`);
   }
 
   // Recent meals
-  const recentFoodKeywords = [
-    "피자",
-    "치킨",
-    "햄버거",
-    "파스타",
-    "돈가스",
-    "돈까스",
-    "비빔밥",
-    "라면",
-    "짜장면",
-    "자장면",
-    "짬뽕",
-    "국밥",
-    "곰탕",
-    "초밥",
-    "스테이크",
-    "칼국수",
-    "냉면",
-    "삼겹살",
-    "제육",
-    "찌개",
-    "볶음밥",
-  ];
+  const recentMeals = extractRecentMealsFromSituation(text, disliked);
 
-  if (hasAny(normalized, ["최근", "어제", "오늘아침", "방금", "먹었"])) {
-    const recentMeals = recentFoodKeywords.filter((food) =>
-      normalized.includes(food)
-    );
-
-    if (recentMeals.length > 0) {
-      result.recentMeals = recentMeals.join(", ");
-      result.extractedSummary.push(`최근 먹은 음식: ${result.recentMeals}`);
-    }
+  if (recentMeals.length > 0) {
+    result.recentMeals = recentMeals.join(", ");
+    result.extractedSummary.push(`최근 먹은 음식: ${result.recentMeals}`);
   }
 
   if (result.extractedSummary.length === 0) {
@@ -209,10 +293,6 @@ export function parseSituationText(text: string): ParsedSituation {
 
 function safeTags(tags?: string[] | null) {
   return Array.isArray(tags) ? tags : [];
-}
-
-function normalizeText(value?: string | null) {
-  return (value ?? "").trim().toLowerCase();
 }
 
 function splitInput(value?: string) {
@@ -307,7 +387,6 @@ function calculateScore(menu: MenuItem, input: RecommendationInput) {
 
   const budgetLimit = getBudgetLimit(input.budget);
 
-  // Budget score
   if (budgetLimit !== null) {
     if (typeof menu.estimatedPrice === "number") {
       if (menu.estimatedPrice <= budgetLimit) {
@@ -320,7 +399,6 @@ function calculateScore(menu: MenuItem, input: RecommendationInput) {
     }
   }
 
-  // Taste score
   if (input.preferredTaste) {
     if (safeTags(menu.tasteTags).includes(input.preferredTaste)) {
       score += 5;
@@ -329,7 +407,6 @@ function calculateScore(menu: MenuItem, input: RecommendationInput) {
     }
   }
 
-  // Meal time score
   if (input.mealTime) {
     if (safeTags(menu.mealTimeTags).includes(input.mealTime)) {
       score += 3;
@@ -338,17 +415,15 @@ function calculateScore(menu: MenuItem, input: RecommendationInput) {
     }
   }
 
-  // Recent meal penalty
+  // 최근 먹은 음식은 완전 제외하지 않고 점수만 낮춥니다.
   if (input.recentMeals && matchesRecentMeal(menu, input.recentMeals)) {
     score -= 4;
   }
 
-  // Small bonus for menus with verified or existing price
   if (typeof menu.estimatedPrice === "number") {
     score += 1;
   }
 
-  // Small bonus for menus with image
   if (menu.imageUrl) {
     score += 0.5;
   }
@@ -389,10 +464,6 @@ export function recommendMenus(input: RecommendationInput): RecommendedMenu[] {
 
   const sorted = scored.sort((a, b) => b.score - a.score || a._index - b._index);
 
-  // 핵심 변경점:
-  // 기존에는 점수순 Top 3만 고정으로 보여줬지만,
-  // 이제는 상위 후보군 8개 안에서 랜덤으로 3개를 뽑습니다.
-  // 조건에는 맞으면서도 매번 결과가 조금씩 달라집니다.
   const topPool = sorted.slice(0, Math.min(8, sorted.length));
 
   return shuffleArray(topPool)
