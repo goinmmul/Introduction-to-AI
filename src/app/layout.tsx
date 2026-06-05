@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/recommend", label: "Recommend" },
-  { href: "/about", label: "About" }
+  { href: "/roulette", label: "Roulette" },
+  { href: "/ladder", label: "Ladder" },
+  { href: "/about", label: "About" },
 ];
 
 export default function RootLayout({
@@ -26,7 +28,7 @@ export default function RootLayout({
             <Link href="/" className="text-xl font-bold text-meoti-navy">
               메오티
             </Link>
-            <div className="flex items-center gap-1 text-sm font-medium text-slate-600 sm:gap-3">
+            <div className="flex items-center gap-2 text-sm font-medium text-slate-600 sm:gap-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
