@@ -61,6 +61,12 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
+              href="/roulette"
+              className="rounded-full border border-orange-300 bg-white px-6 py-3 text-sm font-bold text-orange-700 transition hover:bg-orange-50"
+            >
+              음식 룰렛 돌리기
+            </Link>
+            <Link
               href="/recommend"
               className="rounded-full bg-orange-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-200 transition hover:bg-orange-700"
             >
