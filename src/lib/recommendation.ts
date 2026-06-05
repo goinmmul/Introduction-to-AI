@@ -12,6 +12,10 @@ export type MenuItem = {
   similarityTags?: string[] | null;
   locationNote?: string | null;
   needsVerification?: boolean | null;
+  imageUrl?: string | null;
+  imageAlt?: string | null;
+  imageSourceLabel?: string | null;
+  imageCreditUrl?: string | null;
 };
 
 export type RecommendationInput = {

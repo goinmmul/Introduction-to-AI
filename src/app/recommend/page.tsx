@@ -235,6 +235,39 @@ export default function RecommendPage() {
             <div className="mt-5 grid gap-4">
               {results.map((menu, index) => (
                 <article key={`${menu.id ?? menu.menuName}-${index}`} className="rounded-xl border border-slate-200 p-5">
+                  <div className="mb-4 h-44 overflow-hidden rounded-2xl bg-orange-50">
+                    <img
+                      src={menu.imageUrl ?? "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"}
+                      alt={menu.imageAlt ?? menu.menuName ?? "추천 음식 이미지"}
+                      className="h-full w-full object-cover transition duration-300 hover:scale-105"
+                      onError={(event) => {
+                        const image = event.currentTarget;
+
+                        if (image.dataset.fallbackApplied === "true") return;
+
+                        image.dataset.fallbackApplied = "true";
+                        image.src =
+                          "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80";
+                      }}
+                    />
+                  </div>
+                  {menu.imageSourceLabel && (
+                    <p className="-mt-2 mb-4 text-xs text-slate-400">
+                      Image:{" "}
+                      {menu.imageCreditUrl ? (
+                        <a
+                          href={menu.imageCreditUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="underline underline-offset-2"
+                        >
+                          {menu.imageSourceLabel}
+                        </a>
+                      ) : (
+                        menu.imageSourceLabel
+                      )}
+                    </p>
+                  )}
                   <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-sm font-medium text-slate-500">{menu.restaurantName}</p>
