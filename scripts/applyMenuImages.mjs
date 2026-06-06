@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const MENU_FILE = "data/menus.json";
-const CHECKED_AT = "2026-06-05";
+const CHECKED_AT = "2026-06-07";
 
 function commons(fileName) {
     return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(
@@ -43,6 +43,15 @@ function unsplashImage(url, imageAlt) {
     });
 }
 
+function sourcedImage(url, imageAlt, imageSourceLabel, imageCreditUrl) {
+    return imageData({
+        imageUrl: url,
+        imageAlt,
+        imageSourceLabel,
+        imageCreditUrl,
+    });
+}
+
 const UNSPLASH = {
     steak:
         "https://images.unsplash.com/photo-1558030137-a56c1b004fa3?auto=format&fit=crop&w=900&q=80",
@@ -68,6 +77,12 @@ const UNSPLASH = {
         "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
     koreanTable:
         "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+};
+
+const SOURCED_IMAGES = {
+    galmaegisal: "https://bbq.gokiseok.com/images/menu-galmaegi.png",
+    yeomsoTang:
+        "https://www.everybunnyeats.com/wp-content/uploads/2018/06/GoatSoup_Reg.jpg",
 };
 
 const imageUpdates = {
@@ -115,7 +130,12 @@ const imageUpdates = {
 
     // 육온담
     m020: commonsImage("Samgyeopsal-gui.jpg", "삼겹살 사진"),
-    m021: commonsImage("Samgyeopsal-gui.jpg", "삼겹살 사진"),
+    m021: sourcedImage(
+        SOURCED_IMAGES.galmaegisal,
+        "갈매기살 사진",
+        "Gokiseok menu image",
+        "https://bbq.gokiseok.com/en"
+    ),
     m022: commonsImage(
         "Myeongnanjeot (pollock roe).jpg",
         "명란파밥의 재료인 명란젓 사진"
@@ -177,6 +197,22 @@ const imageUpdates = {
     m041: unsplashImage(
         UNSPLASH.grilledMeat,
         "한우 구이와 비슷한 소고기 구이 사진"
+    ),
+
+    // 무등산염소탕
+    m124: sourcedImage(
+        SOURCED_IMAGES.yeomsoTang,
+        "염소탕 사진",
+        "Everybunny Eats recipe image",
+        "https://www.everybunnyeats.com/yeomso-tang-korean-goat-stew/"
+    ),
+
+    // 은행나무갈매기 빛가람점
+    m137: sourcedImage(
+        SOURCED_IMAGES.galmaegisal,
+        "갈매기살 사진",
+        "Gokiseok menu image",
+        "https://bbq.gokiseok.com/en"
     ),
 };
 

@@ -735,12 +735,12 @@
     "priceSourceLabel": "existing project price reference",
     "priceLastCheckedAt": "2026-06-05",
     "priceConfidence": "existing_reference",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
-    "imageAlt": "삼겹살 사진",
-    "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-05"
+    "imageUrl": "https://bbq.gokiseok.com/images/menu-galmaegi.png",
+    "imageAlt": "갈매기살 사진",
+    "imageSourceLabel": "Gokiseok menu image",
+    "imageCreditUrl": "https://bbq.gokiseok.com/en",
+    "fallbackImageUrl": "https://bbq.gokiseok.com/images/menu-galmaegi.png",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m022",
@@ -4192,11 +4192,11 @@
     "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "염소탕과 비슷한 맑은 탕 사진",
-    "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageUrl": "https://www.everybunnyeats.com/wp-content/uploads/2018/06/GoatSoup_Reg.jpg",
+    "imageAlt": "염소탕 사진",
+    "imageSourceLabel": "Everybunny Eats recipe image",
+    "imageCreditUrl": "https://www.everybunnyeats.com/yeomso-tang-korean-goat-stew/",
+    "fallbackImageUrl": "https://www.everybunnyeats.com/wp-content/uploads/2018/06/GoatSoup_Reg.jpg",
     "imageLastCheckedAt": "2026-06-07"
   },
   {
@@ -4622,11 +4622,11 @@
     "priceSourceLabel": "public model restaurant blog signal; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
-    "imageAlt": "갈매기살과 비슷한 돼지고기 구이 사진",
-    "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Moksal-gui.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
+    "imageUrl": "https://bbq.gokiseok.com/images/menu-galmaegi.png",
+    "imageAlt": "갈매기살 사진",
+    "imageSourceLabel": "Gokiseok menu image",
+    "imageCreditUrl": "https://bbq.gokiseok.com/en",
+    "fallbackImageUrl": "https://bbq.gokiseok.com/images/menu-galmaegi.png",
     "imageLastCheckedAt": "2026-06-07"
   },
   {
