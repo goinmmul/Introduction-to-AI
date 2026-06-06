@@ -1483,12 +1483,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulbi-gui.png?width=900",
+    "imageAlt": "보리굴비 구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gulbi-gui.png",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulbi-gui.png?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m043",
@@ -1516,12 +1516,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20seafood-Ganjang%20gejang-01.jpg?width=900",
+    "imageAlt": "간장게장 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20seafood-Ganjang%20gejang-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20seafood-Ganjang%20gejang-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m044",
@@ -1549,11 +1549,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
-    "imageAlt": "냉면 사진",
+    "imageAlt": "물냉면 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.noodles-Mul.naengmyeon-01.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m045",
@@ -1581,12 +1581,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageAlt": "숯불돼지갈비와 비슷한 갈비구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbeque-Galbi-02.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m046",
@@ -1615,12 +1615,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dongtae%20jjigae%20(pollock%20stew).jpg?width=900",
+    "imageAlt": "동태탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Dongtae%20jjigae%20(pollock%20stew).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dongtae%20jjigae%20(pollock%20stew).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m047",
@@ -1649,12 +1649,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Myeongnanjeot%20(pollock%20roe)%20in%20jjigae.jpg?width=900",
+    "imageAlt": "알탕과 비슷한 명란 알찌개 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Myeongnanjeot%20(pollock%20roe)%20in%20jjigae.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Myeongnanjeot%20(pollock%20roe)%20in%20jjigae.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m048",
@@ -1682,12 +1682,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageAlt": "뼈해장국과 비슷한 감자탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m049",
@@ -1716,12 +1716,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageAlt": "감자탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m050",
@@ -1749,12 +1749,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageAlt": "꼬마김밥과 비슷한 김밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(pixabay).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m051",
@@ -1781,12 +1781,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-bokki.jpg?width=900",
+    "imageAlt": "떡볶이 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tteok-bokki.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-bokki.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m052",
@@ -1813,12 +1813,12 @@
     "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "볶음밥 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bassak-bulgogi.jpg?width=900",
+    "imageAlt": "바싹불고기 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bassak-bulgogi.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bassak-bulgogi.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m053",
@@ -1845,12 +1845,12 @@
     "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "볶음밥 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgogi%202.jpg?width=900",
+    "imageAlt": "소불고기 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bulgogi%202.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgogi%202.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m054",
@@ -1880,11 +1880,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageAlt": "돈가스 사진",
+    "imageAlt": "등심돈카츠 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m055",
@@ -1914,11 +1914,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageAlt": "돈가스 사진",
+    "imageAlt": "토마호크돈카츠와 비슷한 돈카츠 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m056",
@@ -1948,11 +1948,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "버거 사진",
+    "imageAlt": "데리버거와 비슷한 버거 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m057",
@@ -1983,11 +1983,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "버거 사진",
+    "imageAlt": "한우불고기버거와 비슷한 버거 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m058",
@@ -2013,12 +2013,12 @@
     "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeonbok-juk.jpg?width=900",
+    "imageAlt": "전복죽 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jeonbok-juk.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeonbok-juk.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m059",
@@ -2047,11 +2047,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageAlt": "비빔밥 사진",
+    "imageAlt": "제육비빔밥과 비슷한 비빔밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m060",
@@ -2079,12 +2079,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bapsang.jpg?width=900",
+    "imageAlt": "가정식 백반 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bapsang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bapsang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m061",
@@ -2115,7 +2115,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m062",
@@ -2143,12 +2143,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageAlt": "꼬마김밥과 비슷한 김밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(pixabay).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m063",
@@ -2174,12 +2174,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramen%20noodled%20Tteokbokki.jpg?width=900",
+    "imageAlt": "라볶이 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Ramen%20noodled%20Tteokbokki.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramen%20noodled%20Tteokbokki.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m064",
@@ -2208,12 +2208,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyetang.jpg?width=900",
+    "imageAlt": "능이삼계탕과 비슷한 삼계탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyetang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyetang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m065",
@@ -2240,12 +2240,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neungi-baeksuk.jpg?width=900",
+    "imageAlt": "능이버섯백숙 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Neungi-baeksuk.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neungi-baeksuk.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m066",
@@ -2273,12 +2273,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "볶음밥 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kimchi%20fried%20rice.jpg?width=900",
+    "imageAlt": "김치볶음밥 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Kimchi%20fried%20rice.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kimchi%20fried%20rice.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m067",
@@ -2305,12 +2305,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-bokki.jpg?width=900",
+    "imageAlt": "떡볶이 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tteok-bokki.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-bokki.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m068",
@@ -2339,12 +2339,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageAlt": "참치김밥과 비슷한 김밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(pixabay).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m069",
@@ -2371,12 +2371,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramyeon.jpg?width=900",
+    "imageAlt": "라면 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Ramyeon.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramyeon.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m070",
@@ -2405,12 +2405,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "국수 요리 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gogi-guksu.jpg?width=900",
+    "imageAlt": "고기국수 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gogi-guksu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gogi-guksu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m071",
@@ -2437,12 +2437,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bossam-kimchi.jpg?width=900",
+    "imageAlt": "돔베고기와 비슷한 수육 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bossam-kimchi.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bossam-kimchi.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m072",
@@ -2471,11 +2471,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageAlt": "돈가스 사진",
+    "imageAlt": "등심카츠 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m073",
@@ -2504,11 +2504,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageAlt": "돈가스 사진",
+    "imageAlt": "치즈카츠와 비슷한 돈카츠 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m074",
@@ -2536,12 +2536,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageAlt": "꼬마김밥과 비슷한 김밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(pixabay).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(pixabay).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m075",
@@ -2567,12 +2567,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageAlt": "김밥 또는 분식 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjolmyeon.jpg?width=900",
+    "imageAlt": "쫄면 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jjolmyeon.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjolmyeon.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m076",
@@ -2599,12 +2599,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Makchang-04.jpg?width=900",
+    "imageAlt": "곱창구이와 비슷한 내장구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.food-Makchang-04.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Makchang-04.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m077",
@@ -2631,12 +2631,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Makchang.jpg?width=900",
+    "imageAlt": "막창구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Makchang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Makchang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m078",
@@ -2663,11 +2663,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
+    "imageAlt": "오리지널 로스트치킨 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m079",
@@ -2696,11 +2696,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
+    "imageAlt": "갈릭 로스트치킨 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m080",
@@ -2728,11 +2728,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
-    "imageAlt": "냉면 사진",
+    "imageAlt": "물냉면 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.noodles-Mul.naengmyeon-01.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m081",
@@ -2758,12 +2758,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bossam-kimchi.jpg?width=900",
+    "imageAlt": "수육 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bossam-kimchi.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bossam-kimchi.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m082",
@@ -2791,12 +2791,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageAlt": "돼지갈비와 비슷한 갈비구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbeque-Galbi-02.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m083",
@@ -2826,12 +2826,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageAlt": "갈비탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20soup-Galbitang-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m084",
@@ -2858,12 +2858,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neungi-baeksuk.jpg?width=900",
+    "imageAlt": "능이버섯백숙 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Neungi-baeksuk.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neungi-baeksuk.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m085",
@@ -2893,12 +2893,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageAlt": "닭볶음탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Dakbokkeumtang%20and%20samgyetang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m086",
@@ -2927,12 +2927,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageAlt": "한우갈비살과 비슷한 소갈비구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbecue-Galbi-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m087",
@@ -2963,12 +2963,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageAlt": "비빔밥 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukhoe-bibimbap%20(32013698315).jpg?width=900",
+    "imageAlt": "한우육회비빔밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Yukhoe-bibimbap%20(32013698315).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukhoe-bibimbap%20(32013698315).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m088",
@@ -2996,12 +2996,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageAlt": "뼈해장국과 비슷한 감자탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m089",
@@ -3030,12 +3030,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageAlt": "감자탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamjatang%20(pork%20neck%20stew)%20(25676572251).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m090",
@@ -3063,12 +3063,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageAlt": "소갈비살 구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbecue-Galbi-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m091",
@@ -3098,12 +3098,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageAlt": "갈비탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20soup-Galbitang-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m092",
@@ -3131,12 +3131,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageAlt": "삼겹살 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m093",
@@ -3162,12 +3162,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
+    "imageAlt": "목살구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Moksal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m094",
@@ -3197,11 +3197,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
-    "imageAlt": "김치찌개 사진",
+    "imageAlt": "돼지고기김치찌개 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi%20jjigae-01.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m095",
@@ -3227,12 +3227,12 @@
     "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyeran-mari.jpg?width=900",
+    "imageAlt": "계란말이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gyeran-mari.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyeran-mari.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m096",
@@ -3262,11 +3262,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
+    "imageAlt": "모듬초밥 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m097",
@@ -3296,11 +3296,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
+    "imageAlt": "연어초밥 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m098",
@@ -3329,12 +3329,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukhoe.jpg?width=900",
+    "imageAlt": "한우육회 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Yukhoe.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukhoe.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m099",
@@ -3360,12 +3360,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Haemul-pajeon.jpg?width=900",
+    "imageAlt": "해물파전 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Haemul-pajeon.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Haemul-pajeon.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m100",
@@ -3391,12 +3391,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking%20yakitori.jpg?width=900",
+    "imageAlt": "모듬꼬치와 비슷한 야키토리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Cooking%20yakitori.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking%20yakitori.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m101",
@@ -3423,12 +3423,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking%20yakitori.jpg?width=900",
+    "imageAlt": "닭껍질꼬치와 비슷한 야키토리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Cooking%20yakitori.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking%20yakitori.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m102",
@@ -3456,12 +3456,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bapsang.jpg?width=900",
+    "imageAlt": "가정식 백반 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bapsang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bapsang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m103",
@@ -3492,7 +3492,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m104",
@@ -3520,12 +3520,12 @@
     "priceSourceLabel": "place.udanax related local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageAlt": "삼겹살 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m105",
@@ -3558,7 +3558,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi%20jjigae-01.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m106",
@@ -3587,11 +3587,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
+    "imageAlt": "후라이드치킨 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m107",
@@ -3617,12 +3617,12 @@
     "priceSourceLabel": "DinnerQueen local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "통다리구이 치킨 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m108",
@@ -3651,12 +3651,12 @@
     "priceSourceLabel": "najucity local guide; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "샤브샤브 또는 전골 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageAlt": "소고기 샤브샤브와 비슷한 전골 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hot%20Pot.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m109",
@@ -3683,12 +3683,12 @@
     "priceSourceLabel": "najucity local guide; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "샤브샤브 또는 전골 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageAlt": "모츠나베와 비슷한 전골 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hot%20Pot.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m110",
@@ -3718,11 +3718,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
+    "imageAlt": "모듬초밥 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m111",
@@ -3753,11 +3753,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
+    "imageAlt": "회정식과 비슷한 생선회 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m112",
@@ -3787,12 +3787,12 @@
     "priceSourceLabel": "local news listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageAlt": "묵은지닭볶음탕과 비슷한 닭볶음탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Dakbokkeumtang%20and%20samgyetang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m113",
@@ -3822,12 +3822,12 @@
     "priceSourceLabel": "local news listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageAlt": "닭볶음탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Dakbokkeumtang%20and%20samgyetang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakbokkeumtang%20and%20samgyetang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m114",
@@ -3855,12 +3855,12 @@
     "priceSourceLabel": "Siksin menu listing",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "web_reference",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulbi-gui.png?width=900",
+    "imageAlt": "굴비정식과 비슷한 굴비구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gulbi-gui.png",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulbi-gui.png?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m115",
@@ -3889,12 +3889,12 @@
     "priceSourceLabel": "Siksin menu listing",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "web_reference",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-galbi.jpg?width=900",
+    "imageAlt": "떡갈비 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tteok-galbi.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteok-galbi.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m116",
@@ -3922,12 +3922,12 @@
     "priceSourceLabel": "Bizno local business listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageAlt": "제주오겹살과 비슷한 삼겹살 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m117",
@@ -3953,12 +3953,12 @@
     "priceSourceLabel": "Bizno local business listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageAlt": "쫄깃살과 비슷한 돼지고기 구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Samgyeopsal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m118",
@@ -3988,12 +3988,12 @@
     "priceSourceLabel": "Hotple local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "샤브샤브 또는 전골 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vietnamese%20spring%20roll.jpg?width=900",
+    "imageAlt": "월남쌈 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese%20spring%20roll.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vietnamese%20spring%20roll.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m119",
@@ -4024,12 +4024,12 @@
     "priceSourceLabel": "Hotple local listing; franchise menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "샤브샤브 또는 전골 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageAlt": "샤브정식과 비슷한 전골 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hot%20Pot.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m120",
@@ -4057,11 +4057,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
+    "imageAlt": "모듬회 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m121",
@@ -4088,12 +4088,12 @@
     "priceSourceLabel": "public model restaurant listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "초밥 또는 회 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mulhoe.jpg?width=900",
+    "imageAlt": "물회 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Mulhoe.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mulhoe.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m122",
@@ -4122,12 +4122,12 @@
     "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "치킨 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hainanese%20Chicken%20rice.jpg?width=900",
+    "imageAlt": "하이난 치킨라이스 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hainanese%20Chicken%20rice.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hainanese%20Chicken%20rice.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m123",
@@ -4156,12 +4156,12 @@
     "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "국수 요리 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho-Beef-Noodles-2008.jpg?width=900",
+    "imageAlt": "쌀국수 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Pho-Beef-Noodles-2008.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho-Beef-Noodles-2008.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m124",
@@ -4191,11 +4191,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageAlt": "염소탕과 비슷한 맑은 탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m125",
@@ -4223,12 +4223,12 @@
     "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "샤브샤브 또는 전골 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageAlt": "염소전골과 비슷한 전골 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Hot%20Pot.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20Pot.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m126",
@@ -4256,12 +4256,12 @@
     "priceSourceLabel": "public model restaurant listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageAlt": "돼지갈비와 비슷한 갈비구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbeque-Galbi-02.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbeque-Galbi-02.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m127",
@@ -4291,12 +4291,12 @@
     "priceSourceLabel": "public model restaurant listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageAlt": "갈비탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20soup-Galbitang-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m128",
@@ -4329,7 +4329,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Sundubu-jjigae.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m129",
@@ -4358,11 +4358,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageAlt": "비빔밥 사진",
+    "imageAlt": "돌솥비빔밥과 비슷한 비빔밥 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m130",
@@ -4393,7 +4393,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jajangmyeon.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jajangmyeon.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m131",
@@ -4424,7 +4424,7 @@
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jjampong.JPG",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjampong.JPG?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m132",
@@ -4453,12 +4453,12 @@
     "priceSourceLabel": "public model restaurant listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daegu-maeun-tang.jpg?width=900",
+    "imageAlt": "메기매운탕과 비슷한 매운탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Daegu-maeun-tang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daegu-maeun-tang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m133",
@@ -4487,12 +4487,12 @@
     "priceSourceLabel": "public model restaurant listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daegu-maeun-tang.jpg?width=900",
+    "imageAlt": "빠가사리매운탕과 비슷한 매운탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Daegu-maeun-tang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daegu-maeun-tang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m134",
@@ -4522,11 +4522,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageAlt": "황칠곰탕과 비슷한 곰탕 사진",
     "imageSourceLabel": "Wikimedia Commons",
     "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
     "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m135",
@@ -4556,12 +4556,12 @@
     "priceSourceLabel": "public model restaurant blog signal; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageAlt": "갈비탕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20soup-Galbitang-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20soup-Galbitang-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m136",
@@ -4589,12 +4589,12 @@
     "priceSourceLabel": "public model restaurant blog signal; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageAlt": "소갈비살 구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20barbecue-Galbi-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20barbecue-Galbi-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m137",
@@ -4620,12 +4620,12 @@
     "priceSourceLabel": "public model restaurant blog signal; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "고기 구이 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
+    "imageAlt": "갈매기살과 비슷한 돼지고기 구이 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Moksal-gui.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moksal-gui.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m138",
@@ -4651,12 +4651,12 @@
     "priceSourceLabel": "Polle local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "대표 음식 사진",
-    "imageSourceLabel": "Unsplash representative food image",
-    "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjukkumi-bokkeum.jpg?width=900",
+    "imageAlt": "주꾸미볶음 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jjukkumi-bokkeum.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjukkumi-bokkeum.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m139",
@@ -4684,11 +4684,11 @@
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
     "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "볶음밥 사진",
+    "imageAlt": "나시고랭과 비슷한 볶음밥 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m140",
@@ -4716,12 +4716,12 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
-    "imageAlt": "만두 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20cuisine-Mandu%20and%20kimchi-01.jpg?width=900",
+    "imageAlt": "고기만두와 비슷한 만두 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Mandu%20(Korean%20dumplings).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20cuisine-Mandu%20and%20kimchi-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20cuisine-Mandu%20and%20kimchi-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   },
   {
     "id": "m141",
@@ -4749,11 +4749,11 @@
     "priceSourceLabel": "place.udanax local listing; public menu reference",
     "priceLastCheckedAt": "2026-06-06",
     "priceConfidence": "manual_estimate",
-    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
-    "imageAlt": "만두 사진",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20Kimchi%20Mandu.jpg?width=900",
+    "imageAlt": "김치만두 사진",
     "imageSourceLabel": "Wikimedia Commons",
-    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Mandu%20(Korean%20dumplings).jpg",
-    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
-    "imageLastCheckedAt": "2026-06-06"
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean%20Kimchi%20Mandu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20Kimchi%20Mandu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-07"
   }
 ]
