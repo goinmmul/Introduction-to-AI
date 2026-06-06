@@ -502,6 +502,82 @@ function matchesRecentMeal(menu: MenuItem, recentMeals?: string) {
   return recent.some((word) => searchableText.includes(word));
 }
 
+const tasteTagLabels: Record<string, string> = {
+  warm: "따뜻한",
+  spicy: "매콤한",
+  mild: "순한",
+  filling: "든든한",
+  fresh: "신선한",
+  light: "가벼운",
+  creamy: "크리미한",
+  fried: "바삭한",
+};
+
+const foodTagLabels: Record<string, string> = {
+  rice: "밥 메뉴",
+  soup: "국물 메뉴",
+  noodle: "면 요리",
+  pasta: "파스타",
+  seafood: "해산물 메뉴",
+  shellfish: "조개류 메뉴",
+  shrimp: "새우 메뉴",
+  crab: "게살 메뉴",
+  fish: "생선 메뉴",
+  sushi: "초밥 메뉴",
+  meat: "고기 메뉴",
+  pork: "돼지고기 메뉴",
+  beef: "소고기 메뉴",
+  chicken: "닭고기 메뉴",
+  steak: "스테이크",
+  grill: "구이 메뉴",
+  "korean bbq": "구이 메뉴",
+  bibimbap: "비빔밥",
+  sotbap: "솥밥",
+  setmeal: "정식 메뉴",
+  fried: "튀김 메뉴",
+};
+
+const mealTimeLabels: Record<string, string> = {
+  lunch: "점심",
+  dinner: "저녁",
+  lateNight: "야식",
+};
+
+function formatKoreanList(items: string[]) {
+  return items.join(", ");
+}
+
+function getMenuTraitReason(menu: MenuItem) {
+  const tasteLabels = safeTags(menu.tasteTags)
+    .map((tag) => tasteTagLabels[tag])
+    .filter(Boolean)
+    .slice(0, 2);
+  const foodLabels = safeTags(menu.similarityTags)
+    .map((tag) => foodTagLabels[tag])
+    .filter(Boolean)
+    .slice(0, 2);
+
+  if (tasteLabels.length > 0 && foodLabels.length > 0) {
+    return `${formatKoreanList(tasteLabels)} 느낌의 ${formatKoreanList(
+      foodLabels
+    )}라 한 끼로 고르기 좋습니다`;
+  }
+
+  if (tasteLabels.length > 0) {
+    return `${formatKoreanList(tasteLabels)} 느낌이 있는 메뉴입니다`;
+  }
+
+  if (foodLabels.length > 0) {
+    return `${formatKoreanList(foodLabels)}라 선택지로 넣기 좋습니다`;
+  }
+
+  if (menu.category) {
+    return `${menu.category} 계열 메뉴라 다른 추천 후보와 구성이 겹치지 않습니다`;
+  }
+
+  return "메뉴명과 기본 정보가 확인된 후보입니다";
+}
+
 function createRecommendationReason(menu: MenuItem, input: RecommendationInput) {
   const reasons: string[] = [];
 
@@ -512,29 +588,41 @@ function createRecommendationReason(menu: MenuItem, input: RecommendationInput) 
     typeof menu.estimatedPrice === "number" &&
     menu.estimatedPrice <= budgetLimit
   ) {
-    reasons.push("예산 조건에 맞습니다");
+    reasons.push(
+      `예상 가격이 ${formatPrice(menu.estimatedPrice)}이라 선택한 예산 안에 들어갑니다`
+    );
   }
 
   if (
     input.preferredTaste &&
     safeTags(menu.tasteTags).includes(input.preferredTaste)
   ) {
-    reasons.push("선호한 맛 태그와 잘 맞습니다");
+    reasons.push(
+      `${tasteTagLabels[input.preferredTaste] ?? "선호한"} 맛 태그가 있어 원하는 느낌과 맞습니다`
+    );
   }
 
   if (input.mealTime && safeTags(menu.mealTimeTags).includes(input.mealTime)) {
-    reasons.push("선택한 식사 시간에 어울립니다");
+    reasons.push(
+      `${mealTimeLabels[input.mealTime] ?? "선택한 식사 시간"}에 어울리는 메뉴로 분류되어 있습니다`
+    );
+  }
+
+  if (input.dislikedFoods) {
+    reasons.push("입력한 제외 음식과 겹치는 메뉴명이나 음식 태그가 없습니다");
   }
 
   if (input.recentMeals && !matchesRecentMeal(menu, input.recentMeals)) {
-    reasons.push("최근 먹은 음식과 겹치지 않습니다");
+    reasons.push("최근 먹은 음식과도 겹치지 않습니다");
   }
+
+  reasons.push(getMenuTraitReason(menu));
 
   if (reasons.length === 0) {
-    return "기본 메뉴 데이터에서 안정적으로 추천할 수 있는 후보입니다.";
+    return "메뉴 정보와 태그를 기준으로 추천 후보에 포함했습니다.";
   }
 
-  return `${reasons.join(", ")}.`;
+  return `${reasons.slice(0, 3).join(". ")}.`;
 }
 
 function calculateScore(menu: MenuItem, input: RecommendationInput) {
