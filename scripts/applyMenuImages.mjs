@@ -156,10 +156,7 @@ const imageUpdates = {
 
     // 솔솥 나주혁신점
     m035: unsplashImage(UNSPLASH.riceBowl, "솥밥과 비슷한 밥 사진"),
-    m036: unsplashImage(
-        UNSPLASH.seafood,
-        "해산물 솥밥과 비슷한 해산물 요리 사진"
-    ),
+    m036: unsplashImage(UNSPLASH.riceBowl, "육해풍미솥과 비슷한 솥밥 사진"),
 
     // 해탄 나주혁신도시점
     m037: unsplashImage(

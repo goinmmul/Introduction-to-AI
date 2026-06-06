@@ -1273,11 +1273,11 @@
     "priceSourceLabel": "existing project price reference, per-person estimate",
     "priceLastCheckedAt": "2026-06-05",
     "priceConfidence": "existing_reference",
-    "imageUrl": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
-    "imageAlt": "해산물 솥밥과 비슷한 해산물 요리 사진",
+    "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "육해풍미솥과 비슷한 솥밥 사진",
     "imageSourceLabel": "Unsplash representative food image",
     "imageCreditUrl": "https://unsplash.com/license",
-    "fallbackImageUrl": "https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80",
     "imageLastCheckedAt": "2026-06-05"
   },
   {
