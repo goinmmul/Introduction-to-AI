@@ -1456,5 +1456,3304 @@
     "imageCreditUrl": "https://unsplash.com/license",
     "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
     "imageLastCheckedAt": "2026-06-05"
+  },
+  {
+    "id": "m042",
+    "restaurantName": "해미연",
+    "menuName": "보리굴비정식",
+    "category": "Korean",
+    "estimatedPrice": 23000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "setmeal"
+    ],
+    "locationNote": "빛가람동 162-1",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m043",
+    "restaurantName": "해미연",
+    "menuName": "간장게장정식",
+    "category": "Korean",
+    "estimatedPrice": 28000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "setmeal"
+    ],
+    "locationNote": "빛가람동 162-1",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m044",
+    "restaurantName": "한천냉면 돼지갈비",
+    "menuName": "물냉면",
+    "category": "Korean BBQ",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "noodle"
+    ],
+    "locationNote": "빛가람동 353-1 D7동 108호,109호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
+    "imageAlt": "냉면 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.noodles-Mul.naengmyeon-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m045",
+    "restaurantName": "한천냉면 돼지갈비",
+    "menuName": "숯불돼지갈비",
+    "category": "Korean BBQ",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 353-1 D7동 108호,109호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m046",
+    "restaurantName": "청동태탕",
+    "menuName": "동태탕",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 353-1 F동 106호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m047",
+    "restaurantName": "청동태탕",
+    "menuName": "알탕",
+    "category": "Korean",
+    "estimatedPrice": 12000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 353-1 F동 106호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m048",
+    "restaurantName": "청춘왕뼈해장국 나주혁신점",
+    "menuName": "왕뼈해장국",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 353-1 F동 108호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m049",
+    "restaurantName": "청춘왕뼈해장국 나주혁신점",
+    "menuName": "감자탕 소",
+    "category": "Korean",
+    "estimatedPrice": 30000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 353-1 F동 108호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m050",
+    "restaurantName": "햇살머믄꼬마김밥 나주빛가람점",
+    "menuName": "꼬마김밥",
+    "category": "Snack",
+    "estimatedPrice": 4500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "gimbap"
+    ],
+    "locationNote": "빛가람동 353-1 F동 109호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m051",
+    "restaurantName": "햇살머믄꼬마김밥 나주빛가람점",
+    "menuName": "떡볶이",
+    "category": "Snack",
+    "estimatedPrice": 5000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "spicy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "tteokbokki"
+    ],
+    "locationNote": "빛가람동 353-1 F동 109호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m052",
+    "restaurantName": "본도시락 나주혁신도시점",
+    "menuName": "광양식바싹불고기도시락",
+    "category": "Lunchbox",
+    "estimatedPrice": 8900,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "lunchbox"
+    ],
+    "locationNote": "빛가람동 353-1 E동 127호",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "볶음밥 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m053",
+    "restaurantName": "본도시락 나주혁신도시점",
+    "menuName": "버섯소불고기도시락",
+    "category": "Lunchbox",
+    "estimatedPrice": 10400,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "lunchbox"
+    ],
+    "locationNote": "빛가람동 353-1 E동 127호",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "볶음밥 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m054",
+    "restaurantName": "오유미당 나주혁신점",
+    "menuName": "등심돈카츠",
+    "category": "Japanese",
+    "estimatedPrice": 10900,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "pork"
+    ],
+    "locationNote": "빛가람동 196-1 A동 112호",
+    "sourceLabel": "place.udanax local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageAlt": "돈가스 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m055",
+    "restaurantName": "오유미당 나주혁신점",
+    "menuName": "토마호크돈카츠",
+    "category": "Japanese",
+    "estimatedPrice": 14900,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "pork"
+    ],
+    "locationNote": "빛가람동 196-1 A동 112호",
+    "sourceLabel": "place.udanax local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageAlt": "돈가스 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m056",
+    "restaurantName": "롯데리아 나주혁신점",
+    "menuName": "데리버거 세트",
+    "category": "Fast Food",
+    "estimatedPrice": 6900,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "fast food",
+      "burger"
+    ],
+    "locationNote": "빛가람동 189-1 펠리시티S",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "버거 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m057",
+    "restaurantName": "롯데리아 나주혁신점",
+    "menuName": "한우불고기버거 세트",
+    "category": "Fast Food",
+    "estimatedPrice": 10600,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "fast food",
+      "burger",
+      "beef"
+    ],
+    "locationNote": "빛가람동 189-1 펠리시티S",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "버거 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m058",
+    "restaurantName": "본죽&비빔밥cafe 나주혁신한전점",
+    "menuName": "전복죽",
+    "category": "Korean",
+    "estimatedPrice": 13000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "전력로 2",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m059",
+    "restaurantName": "본죽&비빔밥cafe 나주혁신한전점",
+    "menuName": "제육비빔밥",
+    "category": "Korean",
+    "estimatedPrice": 10500,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "rice"
+    ],
+    "locationNote": "전력로 2",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageAlt": "비빔밥 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m060",
+    "restaurantName": "미소식당",
+    "menuName": "가정식 백반",
+    "category": "Korean",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "setmeal"
+    ],
+    "locationNote": "빛가람동 190-2 B동 117,118호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m061",
+    "restaurantName": "미소식당",
+    "menuName": "제육볶음",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 190-2 B동 117,118호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
+    "imageAlt": "제육볶음 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m062",
+    "restaurantName": "또또꼬마김밥 나주혁신점",
+    "menuName": "꼬마김밥",
+    "category": "Snack",
+    "estimatedPrice": 4000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "gimbap"
+    ],
+    "locationNote": "빛가람동 189-2 이화프라자 107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m063",
+    "restaurantName": "또또꼬마김밥 나주혁신점",
+    "menuName": "라볶이",
+    "category": "Snack",
+    "estimatedPrice": 6000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "spicy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack"
+    ],
+    "locationNote": "빛가람동 189-2 이화프라자 107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m064",
+    "restaurantName": "능이향2호점",
+    "menuName": "능이삼계탕",
+    "category": "Korean",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 190-2 B동 113호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m065",
+    "restaurantName": "능이향2호점",
+    "menuName": "능이버섯백숙",
+    "category": "Korean",
+    "estimatedPrice": 65000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 190-2 B동 113호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m066",
+    "restaurantName": "알콩달콩",
+    "menuName": "김치볶음밥",
+    "category": "Snack",
+    "estimatedPrice": 8500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "rice"
+    ],
+    "locationNote": "빛가람동 643-1 106호",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "볶음밥 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m067",
+    "restaurantName": "알콩달콩",
+    "menuName": "떡볶이",
+    "category": "Snack",
+    "estimatedPrice": 5000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "spicy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "tteokbokki"
+    ],
+    "locationNote": "빛가람동 643-1 106호",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m068",
+    "restaurantName": "이화김밥",
+    "menuName": "참치김밥",
+    "category": "Snack",
+    "estimatedPrice": 4500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "gimbap",
+      "seafood"
+    ],
+    "locationNote": "빛가람동 643-2 102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m069",
+    "restaurantName": "이화김밥",
+    "menuName": "라면",
+    "category": "Snack",
+    "estimatedPrice": 4500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "noodle"
+    ],
+    "locationNote": "빛가람동 643-2 102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m070",
+    "restaurantName": "제주올레",
+    "menuName": "고기국수",
+    "category": "Korean",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "noodle"
+    ],
+    "locationNote": "빛가람동 643-3 휴타워 102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "국수 요리 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m071",
+    "restaurantName": "제주올레",
+    "menuName": "돔베고기",
+    "category": "Korean",
+    "estimatedPrice": 25000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 643-3 휴타워 102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m072",
+    "restaurantName": "봉덕카츠",
+    "menuName": "등심카츠",
+    "category": "Japanese",
+    "estimatedPrice": 11000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese"
+    ],
+    "locationNote": "빛가람동 692-3 103호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageAlt": "돈가스 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m073",
+    "restaurantName": "봉덕카츠",
+    "menuName": "치즈카츠",
+    "category": "Japanese",
+    "estimatedPrice": 13000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese"
+    ],
+    "locationNote": "빛가람동 692-3 103호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageAlt": "돈가스 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m074",
+    "restaurantName": "송촌꼬마김밥 빛가람점",
+    "menuName": "송촌꼬마김밥",
+    "category": "Snack",
+    "estimatedPrice": 4000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "gimbap"
+    ],
+    "locationNote": "빛가람동 692-4 1층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m075",
+    "restaurantName": "송촌꼬마김밥 빛가람점",
+    "menuName": "쫄면",
+    "category": "Snack",
+    "estimatedPrice": 7000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack"
+    ],
+    "locationNote": "빛가람동 692-4 1층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageAlt": "김밥 또는 분식 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gimbap%20(kimbap).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gimbap%20(kimbap).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m076",
+    "restaurantName": "왕십리돌곱창구이",
+    "menuName": "곱창구이",
+    "category": "Korean BBQ",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 348-20 LS타워 1층",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m077",
+    "restaurantName": "왕십리돌곱창구이",
+    "menuName": "막창구이",
+    "category": "Korean BBQ",
+    "estimatedPrice": 16000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 348-20 LS타워 1층",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m078",
+    "restaurantName": "오븐에꾸운닭",
+    "menuName": "오리지널 로스트",
+    "category": "Chicken",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chicken"
+    ],
+    "locationNote": "빛가람동 146-4",
+    "sourceLabel": "place.udanax local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m079",
+    "restaurantName": "오븐에꾸운닭",
+    "menuName": "갈릭 로스트치킨",
+    "category": "Chicken",
+    "estimatedPrice": 20000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chicken"
+    ],
+    "locationNote": "빛가람동 146-4",
+    "sourceLabel": "place.udanax local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m080",
+    "restaurantName": "이연규유달전통맷돌면옥 빛가람점",
+    "menuName": "물냉면",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "noodle"
+    ],
+    "locationNote": "빛가람동 147-5 1층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
+    "imageAlt": "냉면 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.noodles-Mul.naengmyeon-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.noodles-Mul.naengmyeon-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m081",
+    "restaurantName": "이연규유달전통맷돌면옥 빛가람점",
+    "menuName": "수육",
+    "category": "Korean",
+    "estimatedPrice": 25000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 147-5 1층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m082",
+    "restaurantName": "금천전통갈비",
+    "menuName": "돼지갈비",
+    "category": "Korean BBQ",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 417-4",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m083",
+    "restaurantName": "금천전통갈비",
+    "menuName": "갈비탕",
+    "category": "Korean BBQ",
+    "estimatedPrice": 13000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat",
+      "soup"
+    ],
+    "locationNote": "빛가람동 417-4",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m084",
+    "restaurantName": "나능이능이버섯백숙 나주점",
+    "menuName": "능이버섯백숙",
+    "category": "Korean",
+    "estimatedPrice": 65000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 414-3",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m085",
+    "restaurantName": "나능이능이버섯백숙 나주점",
+    "menuName": "닭볶음탕",
+    "category": "Korean",
+    "estimatedPrice": 55000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "chicken",
+      "soup"
+    ],
+    "locationNote": "빛가람동 414-3",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m086",
+    "restaurantName": "정품한우 빛가람점",
+    "menuName": "한우갈비살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 28000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat",
+      "beef"
+    ],
+    "locationNote": "빛가람동 422-3",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m087",
+    "restaurantName": "정품한우 빛가람점",
+    "menuName": "한우육회비빔밥",
+    "category": "Korean BBQ",
+    "estimatedPrice": 12000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "seafood",
+      "beef",
+      "rice"
+    ],
+    "locationNote": "빛가람동 422-3",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageAlt": "비빔밥 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m088",
+    "restaurantName": "뼈통감자탕나주",
+    "menuName": "뼈해장국",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 196-1",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m089",
+    "restaurantName": "뼈통감자탕나주",
+    "menuName": "감자탕 중",
+    "category": "Korean",
+    "estimatedPrice": 38000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 196-1",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m090",
+    "restaurantName": "무등소갈비 빛가람점",
+    "menuName": "소갈비살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 348-5 2층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m091",
+    "restaurantName": "무등소갈비 빛가람점",
+    "menuName": "갈비탕",
+    "category": "Korean BBQ",
+    "estimatedPrice": 13000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat",
+      "soup"
+    ],
+    "locationNote": "빛가람동 348-5 2층",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m092",
+    "restaurantName": "마루오구이구이",
+    "menuName": "삼겹살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 348-5 106호,107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m093",
+    "restaurantName": "마루오구이구이",
+    "menuName": "목살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq"
+    ],
+    "locationNote": "빛가람동 348-5 106호,107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m094",
+    "restaurantName": "백채김치찌개 나주혁신도시점",
+    "menuName": "돼지고기김치찌개",
+    "category": "Korean",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "빛가람동 348-11 202호",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
+    "imageAlt": "김치찌개 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi%20jjigae-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m095",
+    "restaurantName": "백채김치찌개 나주혁신도시점",
+    "menuName": "계란말이",
+    "category": "Korean",
+    "estimatedPrice": 8000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "빛가람동 348-11 202호",
+    "sourceLabel": "place.udanax related local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m096",
+    "restaurantName": "가람초밥",
+    "menuName": "모듬초밥",
+    "category": "Japanese",
+    "estimatedPrice": 14000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "sushi"
+    ],
+    "locationNote": "배멧3길 5-4 101호,102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m097",
+    "restaurantName": "가람초밥",
+    "menuName": "연어초밥",
+    "category": "Japanese",
+    "estimatedPrice": 16000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "sushi"
+    ],
+    "locationNote": "배멧3길 5-4 101호,102호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m098",
+    "restaurantName": "정각 나주 본점",
+    "menuName": "한우육회",
+    "category": "Korean Pub",
+    "estimatedPrice": 25000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fresh",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean pub",
+      "seafood",
+      "beef"
+    ],
+    "locationNote": "빛가람동 282-2 1층 101,102호",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m099",
+    "restaurantName": "정각 나주 본점",
+    "menuName": "해물파전",
+    "category": "Korean Pub",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean pub"
+    ],
+    "locationNote": "빛가람동 282-2 1층 101,102호",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m100",
+    "restaurantName": "야키토리요시",
+    "menuName": "모듬꼬치",
+    "category": "Japanese",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese"
+    ],
+    "locationNote": "빛가람동 282-2 1층 108호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m101",
+    "restaurantName": "야키토리요시",
+    "menuName": "닭껍질꼬치",
+    "category": "Japanese",
+    "estimatedPrice": 4500,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "chicken"
+    ],
+    "locationNote": "빛가람동 282-2 1층 108호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m102",
+    "restaurantName": "장가네",
+    "menuName": "가정식 백반",
+    "category": "Korean",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "setmeal"
+    ],
+    "locationNote": "배멧2길 43 1동 1층 107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m103",
+    "restaurantName": "장가네",
+    "menuName": "제육볶음",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean"
+    ],
+    "locationNote": "배멧2길 43 1동 1층 107호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
+    "imageAlt": "제육볶음 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeyuk-bokkeum.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m104",
+    "restaurantName": "삼형제 나주혁신점",
+    "menuName": "삼겹살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "빛가람동 282-2 111,112호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m105",
+    "restaurantName": "삼형제 나주혁신점",
+    "menuName": "김치찌개",
+    "category": "Korean BBQ",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "spicy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "soup"
+    ],
+    "locationNote": "빛가람동 282-2 111,112호",
+    "sourceLabel": "place.udanax related local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax related local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
+    "imageAlt": "김치찌개 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi%20jjigae-01.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.cuisine-Kimchi%20jjigae-01.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m106",
+    "restaurantName": "BBQ 빛가람점",
+    "menuName": "황금올리브치킨",
+    "category": "Chicken",
+    "estimatedPrice": 23000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chicken"
+    ],
+    "locationNote": "빛가람동 692-2",
+    "sourceLabel": "DinnerQueen local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "DinnerQueen local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m107",
+    "restaurantName": "BBQ 빛가람점",
+    "menuName": "자메이카 통다리구이",
+    "category": "Chicken",
+    "estimatedPrice": 24000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chicken"
+    ],
+    "locationNote": "빛가람동 692-2",
+    "sourceLabel": "DinnerQueen local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "DinnerQueen local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m108",
+    "restaurantName": "유유샤브 나주혁신점",
+    "menuName": "소고기 샤브샤브",
+    "category": "Japanese",
+    "estimatedPrice": 16000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "hotpot"
+    ],
+    "locationNote": "빛가람동 286-1",
+    "sourceLabel": "najucity local guide; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "najucity local guide; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "샤브샤브 또는 전골 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m109",
+    "restaurantName": "유유샤브 나주혁신점",
+    "menuName": "모츠나베",
+    "category": "Japanese",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese"
+    ],
+    "locationNote": "빛가람동 286-1",
+    "sourceLabel": "najucity local guide; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "najucity local guide; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "샤브샤브 또는 전골 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m110",
+    "restaurantName": "美 참치·초밥",
+    "menuName": "모듬초밥",
+    "category": "Japanese",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "sushi"
+    ],
+    "locationNote": "도민길 3-52 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m111",
+    "restaurantName": "美 참치·초밥",
+    "menuName": "회정식",
+    "category": "Japanese",
+    "estimatedPrice": 25000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "japanese",
+      "seafood",
+      "setmeal"
+    ],
+    "locationNote": "도민길 3-52 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m112",
+    "restaurantName": "이가네 나주혁신점",
+    "menuName": "묵은지닭볶음탕",
+    "category": "Korean",
+    "estimatedPrice": 35000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "chicken",
+      "soup"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "local news listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "local news listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m113",
+    "restaurantName": "이가네 나주혁신점",
+    "menuName": "닭볶음탕",
+    "category": "Korean",
+    "estimatedPrice": 32000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "chicken",
+      "soup"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "local news listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "local news listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m114",
+    "restaurantName": "연우한정식",
+    "menuName": "굴비정식(점심)",
+    "category": "Korean",
+    "estimatedPrice": 27000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "setmeal"
+    ],
+    "locationNote": "빛가람동 288-1",
+    "sourceLabel": "Siksin menu listing",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Siksin menu listing",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "web_reference",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m115",
+    "restaurantName": "연우한정식",
+    "menuName": "떡갈비정식(점심)",
+    "category": "Korean",
+    "estimatedPrice": 27000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "meat",
+      "setmeal"
+    ],
+    "locationNote": "빛가람동 288-1",
+    "sourceLabel": "Siksin menu listing",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Siksin menu listing",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "web_reference",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m116",
+    "restaurantName": "제줏간 나주혁신도시점",
+    "menuName": "제주오겹살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "배멧1길 36 105호,106호,107호",
+    "sourceLabel": "Bizno local business listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Bizno local business listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m117",
+    "restaurantName": "제줏간 나주혁신도시점",
+    "menuName": "쫄깃살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 16000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq"
+    ],
+    "locationNote": "배멧1길 36 105호,106호,107호",
+    "sourceLabel": "Bizno local business listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Bizno local business listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m118",
+    "restaurantName": "채선당 플러스 나주혁신도시점",
+    "menuName": "월남쌈 소고기샤브",
+    "category": "Korean",
+    "estimatedPrice": 18900,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "hotpot"
+    ],
+    "locationNote": "배멧3길 11 5층",
+    "sourceLabel": "Hotple local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Hotple local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "샤브샤브 또는 전골 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m119",
+    "restaurantName": "채선당 플러스 나주혁신도시점",
+    "menuName": "샐러드바 샤브정식",
+    "category": "Korean",
+    "estimatedPrice": 15900,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "fresh",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "hotpot",
+      "setmeal"
+    ],
+    "locationNote": "배멧3길 11 5층",
+    "sourceLabel": "Hotple local listing; franchise menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Hotple local listing; franchise menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "샤브샤브 또는 전골 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m120",
+    "restaurantName": "바다수산",
+    "menuName": "모듬회",
+    "category": "Seafood",
+    "estimatedPrice": 45000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "fresh",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "seafood"
+    ],
+    "locationNote": "배멧1길 26 401호,402~404호",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m121",
+    "restaurantName": "바다수산",
+    "menuName": "물회",
+    "category": "Seafood",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fresh",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "seafood"
+    ],
+    "locationNote": "배멧1길 26 401호,402~404호",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "초밥 또는 회 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m122",
+    "restaurantName": "더하이난",
+    "menuName": "하이난 치킨라이스",
+    "category": "Asian",
+    "estimatedPrice": 12000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "fried",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "asian",
+      "chicken"
+    ],
+    "locationNote": "배멧1길 10 휴먼프라자 407호",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "치킨 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m123",
+    "restaurantName": "더하이난",
+    "menuName": "쌀국수",
+    "category": "Asian",
+    "estimatedPrice": 11000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "asian",
+      "noodle"
+    ],
+    "locationNote": "배멧1길 10 휴먼프라자 407호",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "국수 요리 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m124",
+    "restaurantName": "무등산염소탕",
+    "menuName": "염소탕",
+    "category": "Korean",
+    "estimatedPrice": 18000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "배멧1길 46 101호",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m125",
+    "restaurantName": "무등산염소탕",
+    "menuName": "염소전골",
+    "category": "Korean",
+    "estimatedPrice": 55000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "hotpot"
+    ],
+    "locationNote": "배멧1길 46 101호",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "샤브샤브 또는 전골 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1607301405390-d831c242f59c?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m126",
+    "restaurantName": "나주태광갈비 나주혁신점",
+    "menuName": "돼지갈비",
+    "category": "Korean BBQ",
+    "estimatedPrice": 17000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "그린로 321 1층 104호",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m127",
+    "restaurantName": "나주태광갈비 나주혁신점",
+    "menuName": "갈비탕",
+    "category": "Korean BBQ",
+    "estimatedPrice": 13000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat",
+      "soup"
+    ],
+    "locationNote": "그린로 321 1층 104호",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m128",
+    "restaurantName": "봉황순두부",
+    "menuName": "순두부찌개",
+    "category": "Korean",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "warm",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "도민길 21 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=900",
+    "imageAlt": "순두부찌개 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Sundubu-jjigae.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m129",
+    "restaurantName": "봉황순두부",
+    "menuName": "돌솥비빔밥",
+    "category": "Korean",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "rice"
+    ],
+    "locationNote": "도민길 21 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageAlt": "비빔밥 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m130",
+    "restaurantName": "미림원",
+    "menuName": "짜장면",
+    "category": "Chinese",
+    "estimatedPrice": 7000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chinese"
+    ],
+    "locationNote": "도민길 4-59",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jajangmyeon.jpg?width=900",
+    "imageAlt": "짜장면 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jajangmyeon.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jajangmyeon.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m131",
+    "restaurantName": "미림원",
+    "menuName": "짬뽕",
+    "category": "Chinese",
+    "estimatedPrice": 9000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "chinese"
+    ],
+    "locationNote": "도민길 4-59",
+    "sourceLabel": "public model restaurant nearby listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant nearby listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjampong.JPG?width=900",
+    "imageAlt": "짬뽕 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Jjampong.JPG",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjampong.JPG?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m132",
+    "restaurantName": "나주쌍치민물매운탕",
+    "menuName": "메기매운탕",
+    "category": "Korean",
+    "estimatedPrice": 35000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "황동1길 69 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m133",
+    "restaurantName": "나주쌍치민물매운탕",
+    "menuName": "빠가사리매운탕",
+    "category": "Korean",
+    "estimatedPrice": 45000,
+    "priceRange": "over15000",
+    "tasteTags": [
+      "warm",
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "황동1길 69 1층",
+    "sourceLabel": "public model restaurant listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m134",
+    "restaurantName": "대박황칠코리아 목삼정 나주점",
+    "menuName": "황칠곰탕",
+    "category": "Korean",
+    "estimatedPrice": 12000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "soup"
+    ],
+    "locationNote": "정보화길 26",
+    "sourceLabel": "public model restaurant blog signal; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant blog signal; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageAlt": "따뜻한 탕 요리 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Gomtang.jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gomtang.jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m135",
+    "restaurantName": "대박황칠코리아 목삼정 나주점",
+    "menuName": "갈비탕",
+    "category": "Korean",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "warm",
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean",
+      "meat",
+      "soup"
+    ],
+    "locationNote": "정보화길 26",
+    "sourceLabel": "public model restaurant blog signal; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant blog signal; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m136",
+    "restaurantName": "은행나무갈매기 빛가람점",
+    "menuName": "소갈비살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 15000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq",
+      "meat"
+    ],
+    "locationNote": "상야1길 7",
+    "sourceLabel": "public model restaurant blog signal; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant blog signal; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m137",
+    "restaurantName": "은행나무갈매기 빛가람점",
+    "menuName": "갈매기살",
+    "category": "Korean BBQ",
+    "estimatedPrice": 14000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "korean bbq"
+    ],
+    "locationNote": "상야1길 7",
+    "sourceLabel": "public model restaurant blog signal; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "public model restaurant blog signal; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "고기 구이 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m138",
+    "restaurantName": "가내수공업 나주혁신점",
+    "menuName": "주꾸미볶음",
+    "category": "Asian",
+    "estimatedPrice": 11000,
+    "priceRange": "10000to15000",
+    "tasteTags": [
+      "spicy"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "asian"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "Polle local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Polle local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "대표 음식 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m139",
+    "restaurantName": "가내수공업 나주혁신점",
+    "menuName": "나시고랭",
+    "category": "Asian",
+    "estimatedPrice": 10000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "asian",
+      "rice"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "Polle local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "Polle local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageAlt": "볶음밥 사진",
+    "imageSourceLabel": "Unsplash representative food image",
+    "imageCreditUrl": "https://unsplash.com/license",
+    "fallbackImageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m140",
+    "restaurantName": "수제홍만두",
+    "menuName": "고기만두",
+    "category": "Snack",
+    "estimatedPrice": 6000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "filling",
+      "mild"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "dumpling"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
+    "imageAlt": "만두 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Mandu%20(Korean%20dumplings).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
+  },
+  {
+    "id": "m141",
+    "restaurantName": "수제홍만두",
+    "menuName": "김치만두",
+    "category": "Snack",
+    "estimatedPrice": 6000,
+    "priceRange": "under10000",
+    "tasteTags": [
+      "spicy",
+      "filling"
+    ],
+    "mealTimeTags": [
+      "lunch",
+      "dinner"
+    ],
+    "similarityTags": [
+      "snack",
+      "dumpling"
+    ],
+    "locationNote": "빛가람동",
+    "sourceLabel": "place.udanax local listing; public menu reference",
+    "confidence": "restaurant_verified_representative_menu",
+    "needsVerification": true,
+    "priceSourceLabel": "place.udanax local listing; public menu reference",
+    "priceLastCheckedAt": "2026-06-06",
+    "priceConfidence": "manual_estimate",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
+    "imageAlt": "만두 사진",
+    "imageSourceLabel": "Wikimedia Commons",
+    "imageCreditUrl": "https://commons.wikimedia.org/wiki/File:Mandu%20(Korean%20dumplings).jpg",
+    "fallbackImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandu%20(Korean%20dumplings).jpg?width=900",
+    "imageLastCheckedAt": "2026-06-06"
   }
 ]
