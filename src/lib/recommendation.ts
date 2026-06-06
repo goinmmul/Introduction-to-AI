@@ -47,6 +47,7 @@ export type RecommendedMenu = MenuItem & {
 };
 
 const menus = menusData as MenuItem[];
+const RECOMMENDATION_RANDOM_POOL_SIZE = 50;
 
 function hasAny(text: string, keywords: string[]) {
   return keywords.some((keyword) => text.includes(keyword));
@@ -464,7 +465,10 @@ export function recommendMenus(input: RecommendationInput): RecommendedMenu[] {
 
   const sorted = scored.sort((a, b) => b.score - a.score || a._index - b._index);
 
-  const topPool = sorted.slice(0, Math.min(8, sorted.length));
+  const topPool = sorted.slice(
+    0,
+    Math.min(RECOMMENDATION_RANDOM_POOL_SIZE, sorted.length)
+  );
 
   return shuffleArray(topPool)
     .slice(0, 3)
