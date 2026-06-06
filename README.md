@@ -37,13 +37,9 @@
 - 사다리 결과에 따라 결제 담당자 한 명을 선정합니다.
 - 실제 결제 기능이 아니라 친구들끼리 동의했을 때 사용하는 재미용 의사결정 기능입니다.
 
-### 4. About Page
-
-- 서비스 목적, 데이터 범위, MVP 한계, 향후 개선 방향을 설명합니다.
-
 ## Service Flow
 
-1. 사용자는 홈 화면에서 메뉴 추천, 음식 룰렛, 서비스 소개 페이지로 이동합니다.
+1. 사용자는 홈 화면에서 메뉴 추천, 음식 룰렛, 음식값 사다리타기 페이지로 이동합니다.
 2. 혼자 메뉴를 고를 때는 `/recommend`에서 상황 문장 또는 직접 조건을 입력합니다.
 3. 시스템은 입력된 조건을 파싱하고, 싫어하는 음식은 제외하며, 예산과 취향 조건을 점수화합니다.
 4. 최종적으로 메뉴 Top 3, 추천 이유, 가격, 위치, 이미지를 보여줍니다.
@@ -58,7 +54,6 @@
 | `/recommend` | Condition-based menu recommendation page |
 | `/roulette` | Random food roulette for group menu decisions |
 | `/ladder` | Ladder game for selecting one food payment person |
-| `/about` | Service description, data scope, limitations, and future work |
 
 ## Tech Stack
 
@@ -149,7 +144,6 @@ Main steps:
 | `src/app/recommend/page.tsx` | Recommendation input form and result UI |
 | `src/app/roulette/page.tsx` | Food roulette feature for group menu decisions |
 | `src/app/ladder/page.tsx` | Food price ladder game |
-| `src/app/about/page.tsx` | Service explanation and limitations |
 | `src/lib/recommendation.ts` | Rule-based parsing, filtering, scoring, and recommendation logic |
 | `data/menus.json` | Local menu dataset |
 | `AI_USAGE.md` | Explanation of how AI tools were used during development |

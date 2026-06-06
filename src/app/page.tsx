@@ -72,13 +72,6 @@ export default function HomePage() {
             >
               메뉴 추천 받기
             </Link>
-
-            <Link
-              href="/about"
-              className="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-bold text-slate-700 transition hover:border-orange-300 hover:text-orange-700"
-            >
-              서비스 소개 보기
-            </Link>
           </div>
         </div>
 
