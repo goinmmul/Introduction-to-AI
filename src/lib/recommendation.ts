@@ -47,7 +47,8 @@ export type RecommendedMenu = MenuItem & {
 };
 
 const menus = menusData as MenuItem[];
-const RECOMMENDATION_RANDOM_POOL_SIZE = 50;
+const RECOMMENDATION_RANDOM_POOL_SIZE = 20;
+const MIN_STRICT_FILTERED_MENUS = 1;
 
 function hasAny(text: string, keywords: string[]) {
   return keywords.some((keyword) => text.includes(keyword));
@@ -674,6 +675,31 @@ function calculateScore(menu: MenuItem, input: RecommendationInput) {
   return score;
 }
 
+function matchesBudget(menu: MenuItem, budget?: string) {
+  const budgetLimit = getBudgetLimit(budget);
+
+  if (budgetLimit === null || budgetLimit === Number.POSITIVE_INFINITY) {
+    return true;
+  }
+
+  return (
+    typeof menu.estimatedPrice === "number" && menu.estimatedPrice <= budgetLimit
+  );
+}
+
+function matchesPreferredTaste(menu: MenuItem, preferredTaste?: string) {
+  if (!preferredTaste) return true;
+  return safeTags(menu.tasteTags).includes(preferredTaste);
+}
+
+function keepStrictFilterIfEnough(
+  sourceMenus: MenuItem[],
+  predicate: (menu: MenuItem) => boolean
+) {
+  const filtered = sourceMenus.filter(predicate);
+  return filtered.length >= MIN_STRICT_FILTERED_MENUS ? filtered : sourceMenus;
+}
+
 function shuffleArray<T>(array: T[]) {
   const copied = [...array];
 
@@ -690,7 +716,13 @@ export function recommendMenus(input: RecommendationInput): RecommendedMenu[] {
     (menu) => !matchesDislikedFood(menu, input.dislikedFoods)
   );
 
-  const sourceMenus = filteredMenus.length > 0 ? filteredMenus : menus;
+  const budgetMatchedMenus = keepStrictFilterIfEnough(
+    filteredMenus.length > 0 ? filteredMenus : menus,
+    (menu) => matchesBudget(menu, input.budget)
+  );
+  const sourceMenus = keepStrictFilterIfEnough(budgetMatchedMenus, (menu) =>
+    matchesPreferredTaste(menu, input.preferredTaste)
+  );
 
   const scored = sourceMenus.map((menu, index) => {
     const score = calculateScore(menu, input);
