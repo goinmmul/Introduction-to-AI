@@ -93,20 +93,158 @@ const dislikedKeywordRules = [
   { keywords: ["수제비"], terms: ["수제비"] },
 
   {
-    keywords: ["해산물", "해물", "생선", "새우", "조개", "백합"],
-    terms: ["seafood", "해산물", "해물", "생선", "새우", "조개", "백합"],
+    keywords: [
+      "해산물",
+      "해물",
+      "생선",
+      "새우",
+      "조개",
+      "백합",
+      "갑각류",
+      "게",
+      "게장",
+      "회",
+      "생선회",
+      "모듬회",
+      "회정식",
+      "초밥",
+      "스시",
+      "연어",
+      "참치",
+      "굴비",
+      "동태",
+      "알탕",
+      "물회",
+    ],
+    terms: [
+      "seafood",
+      "fish",
+      "shrimp",
+      "crab",
+      "shellfish",
+      "sushi",
+      "sashimi",
+      "salmon",
+      "tuna",
+      "해산물",
+      "해물",
+      "생선",
+      "새우",
+      "조개",
+      "백합",
+      "게",
+      "게장",
+      "생선회",
+      "모듬회",
+      "회정식",
+      "초밥",
+      "스시",
+      "연어",
+      "참치",
+      "굴비",
+      "동태",
+      "알탕",
+      "물회",
+    ],
   },
   {
     keywords: ["치킨", "닭", "닭고기"],
     terms: ["chicken", "치킨", "닭", "닭고기"],
   },
   {
-    keywords: ["고기", "돼지고기", "소고기", "한우"],
-    terms: ["meat", "고기", "돼지고기", "소고기", "한우"],
+    keywords: [
+      "고기",
+      "돼지고기",
+      "소고기",
+      "한우",
+      "육류",
+      "스테이크",
+      "삼겹살",
+      "오겹살",
+      "갈비",
+      "갈비살",
+      "갈매기살",
+      "목살",
+      "수육",
+      "육회",
+      "불고기",
+      "제육",
+      "돈가스",
+      "돈까스",
+      "카츠",
+      "곱창",
+      "막창",
+      "닭",
+      "치킨",
+    ],
+    terms: [
+      "meat",
+      "beef",
+      "pork",
+      "chicken",
+      "steak",
+      "grill",
+      "korean bbq",
+      "고기",
+      "돼지고기",
+      "소고기",
+      "한우",
+      "육류",
+      "스테이크",
+      "삼겹살",
+      "오겹살",
+      "갈비",
+      "갈비살",
+      "갈매기살",
+      "목살",
+      "수육",
+      "육회",
+      "불고기",
+      "제육",
+      "돈가스",
+      "돈까스",
+      "카츠",
+      "곱창",
+      "막창",
+      "닭",
+      "치킨",
+    ],
   },
   {
-    keywords: ["면", "면류", "국수", "라면"],
-    terms: ["noodle", "면", "면류", "국수", "라면"],
+    keywords: [
+      "면",
+      "면류",
+      "국수",
+      "라면",
+      "칼국수",
+      "냉면",
+      "쫄면",
+      "파스타",
+      "짜장",
+      "짜장면",
+      "자장",
+      "자장면",
+      "짬뽕",
+      "쌀국수",
+    ],
+    terms: [
+      "noodle",
+      "pasta",
+      "면",
+      "면류",
+      "국수",
+      "라면",
+      "칼국수",
+      "냉면",
+      "쫄면",
+      "파스타",
+      "짜장",
+      "짜장면",
+      "자장",
+      "자장면",
+      "짬뽕",
+      "쌀국수",
+    ],
   },
   {
     keywords: ["느끼한", "느끼", "기름진", "튀긴", "튀김"],
@@ -303,6 +441,25 @@ function splitInput(value?: string) {
     .filter(Boolean);
 }
 
+function expandDislikedTerms(dislikedFoods?: string) {
+  const inputTerms = splitInput(dislikedFoods);
+  const expanded = new Set(inputTerms);
+
+  inputTerms.forEach((inputTerm) => {
+    dislikedKeywordRules.forEach((rule) => {
+      const matchesRule =
+        rule.keywords.some((keyword) => inputTerm.includes(keyword)) ||
+        rule.terms.some((term) => inputTerm.includes(term));
+
+      if (matchesRule) {
+        rule.terms.forEach((term) => expanded.add(term.toLowerCase()));
+      }
+    });
+  });
+
+  return Array.from(expanded);
+}
+
 function getBudgetLimit(budget?: string) {
   if (budget === "under10000") return 10000;
   if (budget === "10000to15000") return 15000;
@@ -311,15 +468,12 @@ function getBudgetLimit(budget?: string) {
 }
 
 function matchesDislikedFood(menu: MenuItem, dislikedFoods?: string) {
-  const disliked = splitInput(dislikedFoods);
+  const disliked = expandDislikedTerms(dislikedFoods);
 
   if (disliked.length === 0) return false;
 
   const searchableText = [
-    menu.restaurantName,
     menu.menuName,
-    menu.category,
-    menu.locationNote,
     ...safeTags(menu.tasteTags),
     ...safeTags(menu.mealTimeTags),
     ...safeTags(menu.similarityTags),

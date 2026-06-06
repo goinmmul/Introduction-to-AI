@@ -2952,9 +2952,10 @@
     ],
     "similarityTags": [
       "korean bbq",
-      "seafood",
+      "meat",
       "beef",
-      "rice"
+      "rice",
+      "bibimbap"
     ],
     "locationNote": "빛가람동 422-3",
     "sourceLabel": "place.udanax related local listing; public menu reference",
@@ -3319,8 +3320,9 @@
     ],
     "similarityTags": [
       "korean pub",
-      "seafood",
-      "beef"
+      "meat",
+      "beef",
+      "yukhoe"
     ],
     "locationNote": "빛가람동 282-2 1층 101,102호",
     "sourceLabel": "place.udanax local listing; public menu reference",
