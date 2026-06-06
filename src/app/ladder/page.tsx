@@ -1,7 +1,7 @@
 "use client";
 
 import FoodBackground from "@/components/FoodBackground";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type LadderBar = {
     row: number;
@@ -16,6 +16,8 @@ type ParticipantResult = {
 };
 
 type LadderState = {
+    participants: string[];
+    rowCount: number;
     bars: LadderBar[];
     bottomResults: ("결제" | "통과")[];
     participantResults: ParticipantResult[];
@@ -93,6 +95,9 @@ export default function LadderPage() {
     const [totalPrice, setTotalPrice] = useState("48000");
     const [ladder, setLadder] = useState<LadderState | null>(null);
     const [message, setMessage] = useState("");
+    const [selectedCol, setSelectedCol] = useState<number | null>(null);
+    const [revealedCols, setRevealedCols] = useState<number[]>([]);
+    const [showAllResults, setShowAllResults] = useState(false);
 
     const participants = useMemo(
         () => parseParticipants(participantsText),
@@ -103,16 +108,25 @@ export default function LadderPage() {
         if (participants.length < 2) {
             setMessage("참가자를 최소 2명 이상 입력해주세요.");
             setLadder(null);
+            setSelectedCol(null);
+            setRevealedCols([]);
+            setShowAllResults(false);
             return;
         }
 
         if (participants.length > 8) {
             setMessage("화면 표시를 위해 참가자는 최대 8명까지 추천합니다.");
             setLadder(null);
+            setSelectedCol(null);
+            setRevealedCols([]);
+            setShowAllResults(false);
             return;
         }
 
         setMessage("");
+        setSelectedCol(null);
+        setRevealedCols([]);
+        setShowAllResults(false);
 
         const rowCount = Math.max(8, participants.length + 5);
         const bars = generateBars(participants.length, rowCount);
@@ -138,6 +152,8 @@ export default function LadderPage() {
             participants[0];
 
         setLadder({
+            participants,
+            rowCount,
             bars,
             bottomResults,
             participantResults,
@@ -148,23 +164,52 @@ export default function LadderPage() {
     function resetLadder() {
         setLadder(null);
         setMessage("");
+        setSelectedCol(null);
+        setRevealedCols([]);
+        setShowAllResults(false);
         setParticipantsText("");
         setTotalPrice("");
     }
+
+    function selectParticipant(startCol: number) {
+        setShowAllResults(false);
+        setSelectedCol(startCol);
+    }
+
+    function showEveryResult() {
+        setSelectedCol(null);
+        setShowAllResults(true);
+        setRevealedCols(ladder?.participantResults.map((item) => item.startCol) ?? []);
+    }
+
+    useEffect(() => {
+        if (selectedCol === null) {
+            return;
+        }
+
+        const timer = window.setTimeout(() => {
+            setRevealedCols((current) =>
+                current.includes(selectedCol) ? current : [...current, selectedCol]
+            );
+        }, 1300);
+
+        return () => window.clearTimeout(timer);
+    }, [selectedCol]);
 
     const svgWidth = 720;
     const svgHeight = 420;
     const topPadding = 46;
     const bottomPadding = 46;
     const sidePadding = 56;
-    const rowCount = Math.max(8, participants.length + 5);
+    const displayParticipants = ladder?.participants ?? participants;
+    const displayRowCount = ladder?.rowCount ?? Math.max(8, participants.length + 5);
 
     const columnGap =
-        participants.length > 1
-            ? (svgWidth - sidePadding * 2) / (participants.length - 1)
+        displayParticipants.length > 1
+            ? (svgWidth - sidePadding * 2) / (displayParticipants.length - 1)
             : 0;
 
-    const rowGap = (svgHeight - topPadding - bottomPadding) / rowCount;
+    const rowGap = (svgHeight - topPadding - bottomPadding) / displayRowCount;
 
     function getX(col: number) {
         return sidePadding + col * columnGap;
@@ -173,6 +218,47 @@ export default function LadderPage() {
     function getY(row: number) {
         return topPadding + (row + 1) * rowGap;
     }
+
+    function getPathPoints(startCol: number, bars: LadderBar[], pathRowCount: number) {
+        let currentCol = startCol;
+        const points = [{ x: getX(currentCol), y: topPadding }];
+
+        for (let row = 0; row < pathRowCount; row += 1) {
+            const rowY = getY(row);
+            points.push({ x: getX(currentCol), y: rowY });
+
+            const rightBar = bars.find(
+                (bar) => bar.row === row && bar.col === currentCol
+            );
+            const leftBar = bars.find(
+                (bar) => bar.row === row && bar.col === currentCol - 1
+            );
+
+            if (rightBar) {
+                currentCol += 1;
+                points.push({ x: getX(currentCol), y: rowY });
+            } else if (leftBar) {
+                currentCol -= 1;
+                points.push({ x: getX(currentCol), y: rowY });
+            }
+        }
+
+        points.push({ x: getX(currentCol), y: svgHeight - bottomPadding });
+
+        return points.map((point) => `${point.x},${point.y}`).join(" ");
+    }
+
+    const selectedResult =
+        selectedCol === null
+            ? null
+            : ladder?.participantResults.find((item) => item.startCol === selectedCol) ??
+            null;
+
+    const visibleResults = ladder
+        ? ladder.participantResults.filter(
+            (item) => showAllResults || revealedCols.includes(item.startCol)
+        )
+        : [];
 
     return (
         <main className="relative min-h-[calc(100vh-144px)] overflow-hidden bg-gradient-to-b from-orange-50 via-white to-amber-50">
@@ -230,6 +316,9 @@ export default function LadderPage() {
                                 onChange={(event) => {
                                     setParticipantsText(event.target.value);
                                     setMessage("");
+                                    setSelectedCol(null);
+                                    setRevealedCols([]);
+                                    setShowAllResults(false);
                                 }}
                                 placeholder="예: 시훈 지호, 태민, 정우"
                                 className="mt-2 min-h-28 w-full rounded-2xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
@@ -314,38 +403,85 @@ export default function LadderPage() {
                         </div>
                     )}
 
-                    {ladder && participants.length >= 2 && (
+                    {ladder && displayParticipants.length >= 2 && (
                         <div className="mt-6">
-                            <div className="rounded-3xl bg-gradient-to-br from-orange-500 to-amber-400 p-5 text-white">
-                                <p className="text-sm font-semibold opacity-90">
-                                    오늘의 결제 담당자
-                                </p>
+                            {showAllResults ? (
+                                <div className="rounded-3xl bg-gradient-to-br from-orange-500 to-amber-400 p-5 text-white">
+                                    <p className="text-sm font-semibold opacity-90">
+                                        오늘의 결제 담당자
+                                    </p>
 
-                                <h3 className="mt-2 text-4xl font-extrabold">
-                                    {ladder.payer}
-                                </h3>
+                                    <h3 className="mt-2 text-4xl font-extrabold">
+                                        {ladder.payer}
+                                    </h3>
 
-                                <p className="mt-3 text-sm opacity-90">
-                                    {ladder.payer}님이 {formatPrice(totalPrice)} 결제 담당자로
-                                    선정되었습니다.
-                                </p>
+                                    <p className="mt-3 text-sm opacity-90">
+                                        {ladder.payer}님이 {formatPrice(totalPrice)} 결제 담당자로
+                                        선정되었습니다.
+                                    </p>
+                                </div>
+                            ) : (
+                                <div className="rounded-3xl border border-orange-100 bg-orange-50 p-5">
+                                    <p className="text-sm font-bold text-orange-700">
+                                        참가자를 클릭해서 경로를 확인하세요
+                                    </p>
+                                    <p className="mt-2 text-sm leading-6 text-slate-600">
+                                        이름을 누르면 사다리 경로를 따라 내려간 뒤 결과가 공개됩니다.
+                                    </p>
+                                    {selectedResult && revealedCols.includes(selectedResult.startCol) && (
+                                        <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-800">
+                                            {selectedResult.name}님 결과:{" "}
+                                            <span
+                                                className={
+                                                    selectedResult.result === "결제"
+                                                        ? "text-orange-700"
+                                                        : "text-slate-500"
+                                                }
+                                            >
+                                                {selectedResult.result}
+                                            </span>
+                                        </p>
+                                    )}
+                                </div>
+                            )}
+
+                            <div className="mt-4 flex flex-wrap gap-2">
+                                <button
+                                    type="button"
+                                    onClick={showEveryResult}
+                                    className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-slate-700"
+                                >
+                                    한번에 보기
+                                </button>
                             </div>
 
                             <div className="mt-6 overflow-x-auto rounded-3xl border border-slate-200 bg-white p-4">
                                 <div
                                     className="grid min-w-[640px] gap-2 text-center text-sm font-semibold text-slate-700"
                                     style={{
-                                        gridTemplateColumns: `repeat(${participants.length}, minmax(0, 1fr))`,
+                                        gridTemplateColumns: `repeat(${displayParticipants.length}, minmax(0, 1fr))`,
                                     }}
                                 >
-                                    {participants.map((name) => (
-                                        <div
+                                    {displayParticipants.map((name, index) => {
+                                        const isSelected = selectedCol === index;
+                                        const isRevealed = showAllResults || revealedCols.includes(index);
+
+                                        return (
+                                            <button
                                             key={name}
-                                            className="rounded-xl bg-orange-50 px-3 py-2 text-orange-700"
+                                            type="button"
+                                            onClick={() => selectParticipant(index)}
+                                            className={`rounded-xl px-3 py-2 transition ${isSelected
+                                                ? "bg-orange-600 text-white shadow-md shadow-orange-100"
+                                                : isRevealed
+                                                    ? "bg-orange-100 text-orange-700"
+                                                    : "bg-orange-50 text-orange-700 hover:bg-orange-100"
+                                                }`}
                                         >
                                             {name}
-                                        </div>
-                                    ))}
+                                        </button>
+                                        );
+                                    })}
                                 </div>
 
                                 <svg
@@ -354,7 +490,15 @@ export default function LadderPage() {
                                     role="img"
                                     aria-label="음식값 사다리 결과"
                                 >
-                                    {participants.map((_, col) => (
+                                    <style>
+                                        {`
+                                            @keyframes ladderPathDraw {
+                                                from { stroke-dashoffset: 1; }
+                                                to { stroke-dashoffset: 0; }
+                                            }
+                                        `}
+                                    </style>
+                                    {displayParticipants.map((_, col) => (
                                         <line
                                             key={`vertical-${col}`}
                                             x1={getX(col)}
@@ -379,52 +523,99 @@ export default function LadderPage() {
                                             strokeLinecap="round"
                                         />
                                     ))}
+
+                                    {visibleResults.map((item) => (
+                                        selectedCol !== item.startCol ? (
+                                            <polyline
+                                                key={`revealed-path-${item.startCol}`}
+                                                points={getPathPoints(
+                                                    item.startCol,
+                                                    ladder.bars,
+                                                    ladder.rowCount
+                                                )}
+                                                fill="none"
+                                                stroke={item.result === "결제" ? "#ea580c" : "#64748b"}
+                                                strokeWidth="8"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                opacity="0.55"
+                                            />
+                                        ) : null
+                                    ))}
+
+                                    {selectedCol !== null && selectedResult && (
+                                        <polyline
+                                            key={`selected-path-${selectedCol}`}
+                                            points={getPathPoints(
+                                                selectedCol,
+                                                ladder.bars,
+                                                ladder.rowCount
+                                            )}
+                                            fill="none"
+                                            stroke={selectedResult.result === "결제" ? "#ea580c" : "#0f172a"}
+                                            strokeWidth="9"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            pathLength={1}
+                                            style={{
+                                                strokeDasharray: 1,
+                                                strokeDashoffset: 1,
+                                                animation: "ladderPathDraw 1.25s ease-in-out forwards",
+                                            }}
+                                        />
+                                    )}
                                 </svg>
 
                                 <div
                                     className="grid min-w-[640px] gap-2 text-center text-sm font-bold"
                                     style={{
-                                        gridTemplateColumns: `repeat(${participants.length}, minmax(0, 1fr))`,
+                                        gridTemplateColumns: `repeat(${displayParticipants.length}, minmax(0, 1fr))`,
                                     }}
                                 >
                                     {ladder.bottomResults.map((result, index) => (
                                         <div
                                             key={`${result}-${index}`}
-                                            className={`rounded-xl px-3 py-2 ${result === "결제"
+                                            className={`rounded-xl px-3 py-2 ${showAllResults || visibleResults.some((item) => item.endCol === index)
+                                                ? result === "결제"
                                                 ? "bg-orange-600 text-white"
                                                 : "bg-slate-100 text-slate-500"
+                                                : "bg-slate-100 text-transparent"
                                                 }`}
                                         >
-                                            {result}
+                                            {showAllResults || visibleResults.some((item) => item.endCol === index)
+                                                ? result
+                                                : "결과"}
                                         </div>
                                     ))}
                                 </div>
                             </div>
 
-                            <div className="mt-6 grid gap-3 md:grid-cols-2">
-                                {ladder.participantResults.map((item) => (
-                                    <div
-                                        key={item.name}
-                                        className={`rounded-2xl border p-4 ${item.result === "결제"
-                                            ? "border-orange-200 bg-orange-50"
-                                            : "border-slate-200 bg-white"
-                                            }`}
-                                    >
-                                        <p className="text-sm font-semibold text-slate-500">
-                                            {item.name}
-                                        </p>
-
-                                        <p
-                                            className={`mt-1 text-xl font-extrabold ${item.result === "결제"
-                                                ? "text-orange-700"
-                                                : "text-slate-700"
+                            {visibleResults.length > 0 && (
+                                <div className="mt-6 grid gap-3 md:grid-cols-2">
+                                    {visibleResults.map((item) => (
+                                        <div
+                                            key={item.name}
+                                            className={`rounded-2xl border p-4 ${item.result === "결제"
+                                                ? "border-orange-200 bg-orange-50"
+                                                : "border-slate-200 bg-white"
                                                 }`}
                                         >
-                                            {item.result}
-                                        </p>
-                                    </div>
-                                ))}
-                            </div>
+                                            <p className="text-sm font-semibold text-slate-500">
+                                                {item.name}
+                                            </p>
+
+                                            <p
+                                                className={`mt-1 text-xl font-extrabold ${item.result === "결제"
+                                                    ? "text-orange-700"
+                                                    : "text-slate-700"
+                                                    }`}
+                                            >
+                                                {item.result}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     )}
                 </section>
